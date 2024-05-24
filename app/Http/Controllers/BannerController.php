@@ -105,10 +105,19 @@ class BannerController extends Controller
     public function update(Request $request, $id)
     {
         $banner=Banner::findOrFail($id);
+        if($request->file('photo')){
+            $file=$request->file('photo');
+            $image_name=date('YmdHi').$file->getClientOriginalName();
+            $store_image=new BannerImage;
+            $store_image->banner_id=$status->id;
+            $store_image->image_name=$image_name;
+            $store_image->save();
+            $file->move(public_path('public/banner_image'), $image_name);
+        }
         $this->validate($request,[
             'title'=>'string|required|max:50',
             'description'=>'string|nullable',
-            'photo'=>'string|required',
+            'photo'=>'|required',
             'status'=>'required|in:active,inactive',
         ]);
         $data=$request->all();
