@@ -90,6 +90,9 @@
     .header-inner-div{
         background-color: rgb(223, 153, 255);
     }
+    .topbar{
+        background-color :#67656517!important;
+    }
     /*
 </style>
 @stack('styles')

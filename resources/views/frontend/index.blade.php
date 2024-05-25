@@ -127,7 +127,7 @@
 <!-- End Small Banner -->
 
 <!-- Start Product Area -->
-<div class="product-area section mt-5">
+<div class="product-area section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -160,11 +160,11 @@
                             </ul>
                             <!--/ End Tab Nav -->
                         </div>
-                        <div class="tab-content flex-wrap mt-5   d-flex justify-content-center align-items-center  " id="myTabContent">
+                        <div class="tab-content flex-wrap mt-3   d-flex justify-content-center align-items-center  " id="myTabContent">
                              <!-- Start Single Tab -->
                             @if($product_lists)
                                 @foreach($product_lists as $key=>$product)
-                                <div class="col-sm-6 col-md-4 col-lg-3 tab_content_mini mr-5 mt-5  border  px-0   isotope-item {{$product->cat_id}}">
+                                <div class="col-sm-6 col-md-4 col-lg-3 tab_content_mini mr-5 mt-3  border  px-0   isotope-item {{$product->cat_id}}">
                                     <div class="single-product single_product_div m-0">
                                         <div class="product-img col-sm-12 col-md-12 col-lg-12 px-0 d-flex justify-content-center align-items-center ">
 
@@ -275,7 +275,7 @@
 <!-- End Midium Banner -->
 
 <!-- Start Most Popular -->
-<div class="product-area most-popular section mt-2">
+<div class="product-area most-popular section">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -371,6 +371,7 @@
                                 <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="list-image overlay">
+                                        <!-- delay -->
 
                                         @if (!empty($product->product_image) && !empty($product->product_image->image_name))
                      
@@ -379,11 +380,11 @@
                                       <img src="{{asset('backend/img/thumbnail-default.jpg')}}" class="img-fluid" style="max-width:80px" alt="avatar.png">
                                     
                                       @endif
-                                        {{-- find --}}
-                                        {{-- @php
+                                        <!-- find  -->
+                                         <!-- @php
                                             $photo=explode(',',$product->photo);
-                                        @endphp
-                                        <img src="{{$photo[0]}}" alt="{{$photo[0]}}"> --}}
+                                        @endphp -->
+                                        <!-- <img src="{{$photo[0]}}" alt="{{$photo[0]}}"> -->
                                         <a href="{{route('add-to-cart',$product->slug)}}" class="buy"><i class="fa fa-shopping-bag"></i></a>
                                     </div>
                                 </div>

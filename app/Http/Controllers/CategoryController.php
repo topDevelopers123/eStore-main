@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Category;
+use App\Models\CategoryImage;
 use Illuminate\Support\Str;
 
 class CategoryController extends Controller
@@ -43,7 +44,7 @@ class CategoryController extends Controller
         $this->validate($request,[
             'title'=>'string|required',
             'summary'=>'string|nullable',
-            'photo'=>'string|nullable',
+            'photo'=>'|nullable',
             'status'=>'required|in:active,inactive',
             'is_parent'=>'sometimes|in:1',
             'parent_id'=>'nullable|exists:categories,id',
@@ -58,6 +59,15 @@ class CategoryController extends Controller
         $data['is_parent']=$request->input('is_parent',0);
         // return $data;   
         $status=Category::create($data);
+        if($request->file('photo')){
+            $file=$request->file('photo');
+            $image_name=date('YmdHi').$file->getClientOriginalName();
+            $store_image=new CategoryImage;
+            $store_image->category_id=$status->id;
+            $store_image->image_name=$image_name;
+            $store_image->save();
+            $file->move(public_path('public/category_image'), $image_name);
+        }
         if($status){
             request()->session()->flash('success','Category successfully added');
         }

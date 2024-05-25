@@ -84,6 +84,7 @@ img {
 }
 svg:not(:root) {
 	overflow: hidden;
+	width: 18px;
 }
 figure {
 	margin: 1em 40px;
@@ -115,7 +116,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	-webkit-appearance: button;
+/* -webkit-appearance: button; */
 	cursor: pointer;
 }
 button[disabled],
@@ -182,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	color:#757575;
-	margin: 0;
+	margin: 16px;
 	line-height:24px;
 }
 a,button,input{

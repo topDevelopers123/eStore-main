@@ -128,7 +128,7 @@
                                                 <option value="CD">Congo - Kinshasa</option>
                                                 <option value="CK">Cook Islands</option>
                                                 <option value="CR">Costa Rica</option>
-                                                <option value="CI">Côte d’Ivoire</option>
+                                                <option value="CI">Côte dIvoire</option>
                                                 <option value="HR">Croatia</option>
                                                 <option value="CU">Cuba</option>
                                                 <option value="CY">Cyprus</option>
@@ -174,7 +174,7 @@
                                                 <option value="HK">Hong Kong SAR China</option>
                                                 <option value="HU">Hungary</option>
                                                 <option value="IS">Iceland</option>
-                                                <option value="IN">India</option>
+                                                <option value="IN"selected="selected">India</option>
                                                 <option value="ID">Indonesia</option>
                                                 <option value="IR">Iran</option>
                                                 <option value="IQ">Iraq</option>
@@ -225,7 +225,7 @@
                                                 <option value="MM">Myanmar [Burma]</option>
                                                 <option value="NA">Namibia</option>
                                                 <option value="NR">Nauru</option>
-                                                <option value="NP" selected="selected">Nepal</option>
+                                                <option value="NP" >Nepal</option>
                                                 <option value="NL">Netherlands</option>
                                                 <option value="AN">Netherlands Antilles</option>
                                                 <option value="NC">New Caledonia</option>
@@ -324,7 +324,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-group">
-                                            <label>Address Line 1<span>*</span></label>
+                                            <label>House No. , Building Name<span>*</span></label>
                                             <input type="text" name="address1" placeholder="" value="{{old('address1')}}">
                                             @error('address1')
                                                 <span class='text-danger'>{{$message}}</span>
@@ -333,7 +333,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-group">
-                                            <label>Address Line 2</label>
+                                            <label>Area,Colony</label>
                                             <input type="text" name="address2" placeholder="" value="{{old('address2')}}">
                                             @error('address2')
                                                 <span class='text-danger'>{{$message}}</span>
@@ -342,7 +342,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-group">
-                                            <label>Postal Code</label>
+                                            <label>Postel Code</label>
                                             <input type="text" name="post_code" placeholder="" value="{{old('post_code')}}">
                                             @error('post_code')
                                                 <span class='text-danger'>{{$message}}</span>
