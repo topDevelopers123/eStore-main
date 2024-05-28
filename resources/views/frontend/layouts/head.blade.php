@@ -94,7 +94,7 @@
         background-color :#EED6D3 !important;
     }
     .add_to_cart_btn{
-        background-color: #66cc66 !important;
+        background-color: #F7941D !important;
         padding: 10px 20px !important;
         text-align: center !important;
         border-radius: 8px !important;
@@ -103,7 +103,7 @@
     }
     .add_to_cart_btn:hover{
         background-color: transparent !important;
-        color: #66cc66 !important;
+        color: #F7941D !important;
     }
     .single_product_div{
         background-color: #F6F7FB !important;

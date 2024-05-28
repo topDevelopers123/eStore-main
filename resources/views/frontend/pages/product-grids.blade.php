@@ -23,11 +23,11 @@
     <!-- Product Style -->
     <form action="{{route('shop.filter')}}" method="POST">
         @csrf
-        <section class="product-area shop-sidebar shop section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-12">
-                        <div class="shop-sidebar">
+        <section class="product-area shop-sidebar shop section ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-4 col-12 ">
+                        <div class="shop-sidebar ">
                                 <!-- Single Widget -->
                                 <div class="single-widget category">
                                     <h3 class="title">Categories</h3>
@@ -221,9 +221,9 @@
 
 
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 justify-content-center d-flex">
-                                {{$products->appends($_GET)->links()}}
+                        <div class="row mt-3 border  pagination_Div">
+                            <div class="col-md-12 justify-content-center d-flex m-5 align-content-center text-center ">
+                             {{$products->appends($_GET)->links()}}
                             </div>
                           </div>
 
