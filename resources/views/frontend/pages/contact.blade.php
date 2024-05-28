@@ -20,7 +20,7 @@
   
 	<!-- Start Contact -->
 	<section id="contact-us" class="contact-us section">
-		<div class="container">
+		<div class="container border rounded	">
 				<div class="contact-head">
 					<div class="row">
 						<div class="col-lg-8 col-12">

@@ -285,6 +285,33 @@
 </section>
 <!-- Shop by category  -->
 
+<!-- Sale banners  -->
+<section class="sale_banner_sec">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-4">
+                <div class="sum_banner">
+                    <figure>
+                    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/summer-fashion-sale-banner-design-template-62077c541db2b288dbccd6d9d1c9af3d_screen.jpg?ts=1649932911" alt=""></figure>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sum_banner">
+                    <figure>
+                    <img src="https://img.freepik.com/free-vector/summer-colection-banner-with-hand-drawn-flowers_1188-312.jpg" alt=""></figure>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sum_banner">
+                    <figure>
+                    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/summer-fashion-sale-banner-design-template-62077c541db2b288dbccd6d9d1c9af3d_screen.jpg?ts=1649932911" alt=""></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sale banners  -->
+
 <!-- Start Product Area -->
 <div class="product-area section">
         <div class="container-fluid">
@@ -311,7 +338,7 @@
                                 </button>
                                     @foreach($categories as $key=>$cat)
 
-                                    <button class="btn" style="background:none;color:red;"data-filter=".{{$cat->id}}">
+                                    <button class="btn" style="background:none;color:#000;"data-filter=".{{$cat->id}}">
                                         {{$cat->title}}
                                     </button>
                                     @endforeach
