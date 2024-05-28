@@ -1757,15 +1757,16 @@ Version:1.0
 /* Sinlge Product */
 .single-product{
 	margin-top:50px;
+	position: relative;
 }
 .single-product .product-img {
-  position: relative;
+
   overflow: hidden;
   cursor:pointer;
 }
 .single-product .product-img a {
   display: block;
-  position: relative;
+  
 }
 .single-product .product-img a img {
   width: 100%;
@@ -1783,8 +1784,8 @@ Version:1.0
 	display: inline-block;
 	font-size: 11px;
 	color: #fff;
-	right: 20px;
-	top: 20px;
+	right: 2px;
+	top: 3px;
 	padding: 1px 16px;
 	font-weight: 700;
 	border-radius: 0;
