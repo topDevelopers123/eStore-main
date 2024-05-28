@@ -172,7 +172,7 @@
                             @if(count($products)>0)
                                 @foreach($products as $product)
                                     <div class="col-lg-4 col-md-6 col-12  mt-5">
-                                        <div class="single-product single_product_div mt-0 border border-dark">
+                                        <div class="single-product single_product_div mt-0 border rounded">
                                             <div class="product-img col-sm-12 col-md-12 col-lg-12 px-0 d-flex justify-content-center align-items-center">
                                                 <a href="{{route('product-detail',$product->slug)}}" class="p-2">
                                                     {{-- @php
@@ -192,12 +192,12 @@
                                                     @endif
                                                 </a>
                                                 <div class="button-head ">
-                                                    <div class="product-action ">
+                                                    <div class="product-action pr-3">
                                                         <a data-toggle="modal" data-target="#{{$product->id}}" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
                                                         <a title="Wishlist" href="{{route('add-to-wishlist',$product->slug)}}" class="wishlist" data-id="{{$product->id}}"><i class="pr-2 ti-heart "></i><span class="">Add to Wishlist</span></a>
                                                     </div>
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="{{route('add-to-cart',$product->slug)}}" class="pl-2">Add to cart</a>
+                                                    <div class="product-action-2 pl-3">
+                                                        <a title="Add to cart" href="{{route('add-to-cart',$product->slug)}}" class="pl-2 add_to_cart_btn ">Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -209,7 +209,7 @@
                                                 @endphp
                                                 
                                                 <del  style="padding-left:4%;">&#8377;{{number_format($product->price,2)}}</del>&nbsp;
-                                                <span class="text-success fw-bold">&#8377; {{number_format($after_discount,2)}}</span>
+                                                <span class="text-success fw-bold ">&#8377; {{number_format($after_discount,2)}}</span>
                                             </div>
                                         </div>
                                     </div>
