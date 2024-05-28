@@ -175,4 +175,18 @@
         </div>
     </div>
     <!--/ End Header Inner -->
+
+
+    <!--/ Start Category Section -->
+
+    <div class="contaier-fluid">
+        <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-2 col-12">
+                <div></div>
+            </div>
+        </div>
+        </div>
+    </div>
 </header>
