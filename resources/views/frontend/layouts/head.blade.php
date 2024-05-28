@@ -88,11 +88,12 @@
         border-radius: 8px;
     }
     .header-inner-div{
-        background-color: rgb(223, 153, 255);
+        background-color: #67595E !important;
     }
     .topbar{
-        background-color :#67656517!important;
+        background-color :#EED6D3 !important;
     }
+
     /*
 </style>
 @stack('styles')

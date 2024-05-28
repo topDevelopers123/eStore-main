@@ -191,7 +191,7 @@
 
 																@if (!empty($product_detail->product_image) && !empty($product_detail->product_image->image_name))
                      
-																<img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid " style="max-width:100%; max-height:50%;" alt="$product->product_image->image_name">
+																<img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid " alt="$product->product_image->image_name">
 															  @else
 															  <img src="{{asset('backend/img/thumbnail-default.jpg')}}" class="img-fluid" style="max-width:80px" alt="avatar.png">
 															

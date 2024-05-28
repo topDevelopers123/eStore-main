@@ -126,9 +126,168 @@
 </section> -->
 <!-- End Small Banner -->
 
+<!-- Featured products  start-->
+
+<section class="featured-product">
+    <div class="main">
+       
+        <div class="container-fluid">
+        <div>
+            <h2>Featured product </h2>
+           <div class="bdr"></div>
+        </div>
+        
+  <div class="row">
+    <div class="col-md-12">
+      <div id="news-slider" class="owl-carousel">
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
+          </div>
+         
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
+          </div>
+         
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
+          </div>
+         
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
+          </div>
+         
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
+          </div>
+         
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+       
+    </div>
+
+</section>
+<!-- Featured products  end-->
+
+<!-- Shop by category  -->
+<section class="shop_category">
+
+  <div class="categories">
+  <div>
+    <h2>Shop by category</h2>
+    <div class="bdr"></div>
+  </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="category_box">
+            <div class="cat_img">
+                <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
+            </div>
+            <div class="cat_desc text-center">
+                <h3>Men's wear</h3>
+            </div>
+            </div>
+        </div>
+       
+    </div>
+  </div>
+</section>
+<!-- Shop by category  -->
+
 <!-- Start Product Area -->
 <div class="product-area section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
@@ -748,6 +907,22 @@
             }
             return false
         }
+    </script>
+    <script>
+
+$(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true
+    });
+});
+
     </script>
 
 @endpush
