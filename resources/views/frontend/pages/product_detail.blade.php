@@ -60,14 +60,7 @@
                      
                                                 <img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid  col-10" style="height: 500px;"  alt="$product->product_image->image_name">
 
-												<div class="col-lg-12 col-md-12 col-12">
-													<div class="col-lg-2 col-md-2 col-2 border border-dark">
-
-													</div>
-													<div class="col-lg-10 col-md-10 col-10 border border-dark">
-														
-													</div>
-												</div>
+											
 												
                                               @else
                                               <img src="{{asset('backend/img/thumbnail-default.jpg')}}" class="img-fluid" style="max-width:80px" alt="avatar.png">

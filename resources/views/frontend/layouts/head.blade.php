@@ -108,6 +108,22 @@
     .single_product_div{
         background-color: #F6F7FB !important;
     }
+    .main_catergories{
+        background-color: floralwhite;
+    }
+    .category_specific_div .sub_categories {
+        padding: 15px 0px;
+    }
+    .category_specific_div .sub_categories h5{
+        margin-top: 10px;
+    }
+
+    
+    .category_specific_div img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
 
     /*
 </style>

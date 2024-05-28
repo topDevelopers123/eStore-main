@@ -179,12 +179,28 @@
 
     <!--/ Start Category Section -->
 
-    <div class="contaier-fluid">
+    <div class="contaier-fluid main_catergories">
         <div class="container">
 
-        <div class="row">
-            <div class="col-lg-12 col-md-2 col-12">
-                <div></div>
+        <div class="row justify-content-center">
+            
+            <div class="col-lg-6 col-md-2 col-12 d-flex">
+                <div class="col-lg-4 col-md-4 col-4  d-flex justify-content-center  category_specific_div">
+                    <div class="sub_categories text-center">
+                    <img src="https://t3.ftcdn.net/jpg/03/28/19/46/360_F_328194664_RKSHvMLgHphnD1nwQYb4QKcNeEApJmqa.jpg" alt="">    
+                <h5>Men's</h5></div>
+                    </div>
+                
+                <div class="col-lg-4 col-md-4 col-4  d-flex justify-content-center  category_specific_div">
+                    <div class="sub_categories text-center">
+                <img src="https://st4.depositphotos.com/13193658/25036/i/450/depositphotos_250363326-stock-photo-smiling-attractive-woman-white-sweater.jpg" alt="">    
+                <h5>Women's</h5></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-4  d-flex justify-content-center  category_specific_div">
+                    <div class="sub_categories text-center">
+                <img src="https://img.freepik.com/premium-photo/small-4-year-old-boy-with-curly-hairstyle-stand-against-pastel-color-background_758367-99107.jpg" alt="">    
+                <h5>Kid's</h5></div>
+                </div>
             </div>
         </div>
         </div>
