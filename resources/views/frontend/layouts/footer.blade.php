@@ -25,7 +25,7 @@
 							<h4>Information</h4>
 							<ul>
 								<li><a href="{{route('about-us')}}">About Us</a></li>
-								<li><a href="#">Faq</a></li>
+								<li><a href="#">FAQ</a></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								<li><a href="{{route('contact')}}">Contact Us</a></li>
 								<li><a href="#">Help</a></li>
@@ -74,10 +74,10 @@
 					<div class="row">
 						<div class="col-lg-6 col-12">
 							<div class="left">
-								{{-- <p>Copyright © {{date('Y')}} <a href="https://github.com/Prajwal100" target="_blank">karrar mujtaba</a>  -  All Rights Reserved.</p> --}}
+								 <p>Copyright © {{date('Y')}} |   All Rights Reserved |  <a href="https://parasparivaar.org/" target="_blank">Paras Parivaar Pvt Ltd. New Delhi</a> </p> 
 							</div>
 						</div>
-						<div class="col-lg-6 col-12">
+						<div class="col-lg-6 col-12 ">
 							<div class="right">
 								<img src="{{asset('backend/img/payments.png')}}" alt="#">
 							</div>
