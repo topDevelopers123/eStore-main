@@ -5004,6 +5004,15 @@ Version:1.0
   .owl-theme .owl-dots{
 	margin-top: 20px;
   }
+
+.winter_banner_image img{
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+
   @media only screen and (max-width:1280px) {
 	  .post-slide .post-content{
 		  padding: 0px 15px 25px 15px;
