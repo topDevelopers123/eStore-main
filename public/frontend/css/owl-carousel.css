@@ -12,14 +12,27 @@
 	-webkit-tap-highlight-color: transparent;
 }
 .owl-theme .owl-nav [class*='owl-'] {
-    color: #FFF;
-    font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
-    background: #D6D6D6;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 3px; }
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #f7941d;
+  width: 50px;
+  height: 50px;
+  line-height: 3;
+position: absolute; }
+.owl-carousel .owl-controls .owl-nav .owl-prev{
+  top: 50%;
+  left: 0;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next{
+  top: 50%;
+  right: 0;
+}
 .owl-theme .owl-nav [class*='owl-']:hover {
     background: #869791;
     color: #FFF;
@@ -135,11 +148,12 @@
 .owl-carousel .owl-controls .owl-dot {
   cursor: pointer;
   cursor: hand;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-user-select: block;
+  -khtml-user-select: block;
+  -moz-user-select: block;
+  -ms-user-select: block;
+  user-select: block;
+  display: block !important;
 }
 .owl-carousel.owl-loaded {
   display: block;
@@ -165,6 +179,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  display: flex;
+  justify-content: center;
 }
 .owl-carousel .owl-item img {
   display: block;

@@ -173,8 +173,7 @@
             <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
           </div>
          
-        </div>
-        
+        </div>        
         
       </div>
     </div>
@@ -202,7 +201,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Men's Casual Wear</h4>
             </div>
             </div>
         </div>
@@ -212,7 +211,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Men's Ethnic Wear</h4>
             </div>
             </div>
         </div>
@@ -222,7 +221,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Women's casual Wear</h4>
             </div>
             </div>
         </div>
@@ -232,7 +231,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Women's Ethnic Wear</h4>
             </div>
             </div>
         </div>
@@ -245,7 +244,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Kid's Casual Wear</h4>
             </div>
             </div>
         </div>
@@ -255,7 +254,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Kid's Ethnic Wear</h4>
             </div>
             </div>
         </div>
@@ -265,7 +264,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Footwear Collection</h4>
             </div>
             </div>
         </div>
@@ -275,7 +274,7 @@
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
             </div>
             <div class="cat_desc text-center">
-                <h3>Men's wear</h3>
+                <h4>Heels & Sandals</h4>
             </div>
             </div>
         </div>
@@ -939,15 +938,26 @@
 
 $(document).ready(function() {
     $("#news-slider").owlCarousel({
-        items : 3,
-        itemsDesktop:[1199,3],
-        itemsDesktopSmall:[980,2],
-        itemsMobile : [600,1],
-        navigation:true,
-        navigationText:["",""],
-        pagination:true,
-        autoPlay:true
-    });
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+})
 });
 
     </script>

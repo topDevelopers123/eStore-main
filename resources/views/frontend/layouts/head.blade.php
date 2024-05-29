@@ -124,6 +124,7 @@
         height: 100px;
         border-radius: 50%;
     }
+  
 
     /*
 </style>
