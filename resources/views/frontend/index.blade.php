@@ -195,7 +195,7 @@
     <div class="bdr"></div>
   </div>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -205,7 +205,7 @@
             </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -215,7 +215,7 @@
             </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -225,7 +225,7 @@
             </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -238,7 +238,7 @@
        
     </div>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -248,7 +248,7 @@
             </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -258,7 +258,7 @@
             </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -268,7 +268,7 @@
             </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
             <div class="category_box">
             <div class="cat_img">
                 <img src="https://images.asos-media.com/products/the-north-face-red-box-t-shirt-in-yellow/24349336-1-yellow?$n_750w$&wid=750&hei=750&fit=crop" alt="">
@@ -954,7 +954,7 @@ $(document).ready(function() {
         1000:{
             items:4,
             nav:true,
-            loop:false
+            loop:true
         }
     }
 })

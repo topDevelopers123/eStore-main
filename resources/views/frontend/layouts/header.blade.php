@@ -187,7 +187,7 @@
             
             <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div ">
                 <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div">
-                    <div class="sub_categories  text-center w-100 border border-dark">
+                    <div class="sub_categories  text-center w-100 ">
                     <img src="https://t3.ftcdn.net/jpg/03/28/19/46/360_F_328194664_RKSHvMLgHphnD1nwQYb4QKcNeEApJmqa.jpg" alt="">    
                 <h5>Men's</h5></div>
                     </div>

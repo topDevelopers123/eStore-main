@@ -3892,13 +3892,7 @@ Version:1.0
 .about-us .about-content .button .btn:last-child{
 	margin:0;
 }
-.about-us .about-img {
-	position: relative;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	border: 10px solid #fff;
-}
+
 .about-us .about-img:before{
 	opacity:0;
 	visibility:hidden;
@@ -3942,6 +3936,13 @@ Version:1.0
 	height:100%;
 	width:100%;
 	
+}
+.wwd{
+	background-color: #ffebcd;
+}
+.wwd .wwd_box{
+	background-color: #fff;
+	padding: 20px;
 }
 /*=============================
 	End About US CSS
