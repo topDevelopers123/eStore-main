@@ -64,7 +64,7 @@
     }
     .product-img a .img_section{
         width: 100% !important;
-        height: 250px;
+        height: 300px;
         object-fit: cover;
         border-radius: 8px;
 
@@ -119,12 +119,7 @@
     }
 
     
-    .category_specific_div img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-  
+    
 
     /*
 </style>

@@ -384,10 +384,10 @@
                                             <div class="button-head ">
                                                 <div class="product-action ">
                                                     <a data-toggle="modal" data-target="#{{$product->id}}" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-                                                    <a title="Wishlist" href="{{route('add-to-wishlist',$product->slug)}}" ><i class=" ti-heart pr-3"></i><span class="">Add to Wishlist</span></a>
+                                                    <a title="Wishlist" href="{{route('add-to-wishlist',$product->slug)}}" ><i class=" ti-heart pr-3"></i><span class="pr-2">Add to Wishlist</span></a>
                                                 </div>
-                                                <div class="product-action-2">
-                                                    <a title="Add to cart" href="{{route('add-to-cart',$product->slug)}}" class="pl-3">Add to cart</a>
+                                                <div class="product-action-2 pl-3">
+                                                    <a title="Add to cart" href="{{route('add-to-cart',$product->slug)}}" class="pl-2 add_to_cart_btn">Add to cart</a>
                                                 </div>
                                             </div>
                                         </div>
