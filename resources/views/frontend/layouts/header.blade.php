@@ -1,4 +1,3 @@
-
 <header class="header shop">
     <!-- Topbar -->
    
@@ -42,13 +41,14 @@
         <div class="container-fluid">
             <div class="cat-nav-head">
                 <div class="row">
-                    <div class="col-lg-12 col-12 d-flex justify-content-between align-items-center">
-                        <div class="menu-area col-lg-12 col-md-12 col-sm-12  d-flex justify-content-center align-items-center">
+                    <div class="col-lg-12 col-12 p-0 d-flex justify-content-between align-items-center">
+                        <div class="menu-area p-0 col-lg-12 col-md-12 col-sm-12  d-flex justify-content-center align-items-center ">
                             <!-- Main Menu -->
-                            <nav class="navbar navbar-expand-lg">
-                                <div class="navbar-collapse">	
-                                    <div class="nav-inner">	
+                            <nav class="navbar navbar-expand-lg w-100">
+                                <div class="navbar-collapse border border-dark w-100 px-3">	
+                                    <div class="nav-inner nav_inner_div">	
                                         <ul class="nav main-menu menu navbar-nav ">
+                                            
                                             <li class="{{Request::path()=='home' ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
                                             <li class="@if(Request::path()=='product-grids'||Request::path()=='product-lists')  active  @endif"><a href="{{route('product-grids')}}">Products</a><span class="new">New</span></li>												
                                             {{Helper::getHeaderCategory()}}
@@ -58,18 +58,13 @@
                                             <li class="{{Request::path()=='contact' ? 'active' : ''}}"><a href="{{route('contact')}}">Contact Us</a></li>
                                         </ul>
                                     </div>
-                                    <div class=" d-flex justify-content-between">
+                                    <div class=" d-flex justify-content-center">
                     <!-- Top Right -->
                     <div class="right-content w-100">
-                    <div class=" d-flex justify-content-around  align-content-center  ">
+                    <div class=" d-flex justify-content-center  align-content-center  ">
                     <div class="search-bar-top ">
                         <div class="search-bar">
-                            <select>
-                                <option >All Category</option>
-                                @foreach(Helper::getAllCategory() as $cat)
-                                    <option>{{$cat->title}}</option>
-                                @endforeach
-                            </select>
+                            
                             <form method="POST" action="{{route('product.search')}}">
                                 @csrf
                                 <input name="search" placeholder="Search Products Here....." type="search">
@@ -163,7 +158,13 @@
                             <!--/ End Shopping Item -->
                         </div>
                     </div>
+                 
                 </div>
+                
+                                </div>
+
+                                <div>
+                                
                                 </div>
                             </nav>
                         </div>
@@ -182,22 +183,22 @@
     <div class="contaier-fluid main_catergories">
         <div class="container">
 
-        <div class="row justify-content-center">
+        <div class="row   justify-content-center">
             
-            <div class="col-lg-6 col-md-2 col-12 d-flex">
-                <div class="col-lg-4 col-md-4 col-4  d-flex justify-content-center  category_specific_div">
-                    <div class="sub_categories text-center">
+            <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div ">
+                <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div">
+                    <div class="sub_categories  text-center w-100 border border-dark">
                     <img src="https://t3.ftcdn.net/jpg/03/28/19/46/360_F_328194664_RKSHvMLgHphnD1nwQYb4QKcNeEApJmqa.jpg" alt="">    
                 <h5>Men's</h5></div>
                     </div>
                 
                 <div class="col-lg-4 col-md-4 col-4  d-flex justify-content-center  category_specific_div">
-                    <div class="sub_categories text-center">
+                    <div class="sub_categories  text-center">
                 <img src="https://st4.depositphotos.com/13193658/25036/i/450/depositphotos_250363326-stock-photo-smiling-attractive-woman-white-sweater.jpg" alt="">    
                 <h5>Women's</h5></div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-4  d-flex justify-content-center  category_specific_div">
-                    <div class="sub_categories text-center">
+                    <div class="sub_categories  text-center">
                 <img src="https://img.freepik.com/premium-photo/small-4-year-old-boy-with-curly-hairstyle-stand-against-pastel-color-background_758367-99107.jpg" alt="">    
                 <h5>Kid's</h5></div>
                 </div>
