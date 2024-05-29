@@ -5017,7 +5017,22 @@ Version:1.0
 	  .post-slide .post-content{
 		  padding: 0px 15px 25px 15px;
 	  }
+	  .nav_inner_div{
+		display: none;
+	  }
   }
+
+  @media only screen and (max-width:992px) {
+	.category_specific_main_div{
+		display: flex !important;
+		justify-content: space-between !important;
+	}
+}
+
+
+
+
+
 
   /* Shop by category  */
   .shop_category{
