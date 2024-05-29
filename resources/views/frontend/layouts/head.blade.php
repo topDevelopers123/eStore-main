@@ -69,10 +69,7 @@
         border-radius: 8px;
 
     }
-   
-    .product-content{
-        background-color: rgb(230, 250, 250);
-    }
+/*    
     
     .single_product_div{
         transition: all 0.5s ease;

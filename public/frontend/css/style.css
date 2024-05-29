@@ -22,7 +22,8 @@ Version:1.0
 10. Cart CSS
 11. Checkout CSS
 12. Login & Register CSS
-13. Cowndown CSS
+13. Cowndown 
+CSS
 14. Shop Services CSS
 15. Newslatter CSS
 16. About Us CSS
@@ -4961,7 +4962,7 @@ Version:1.0
   }
   .post-slide:hover .over-layer{
 	  opacity:1;
-	  text-decoration:none;
+	  text-decoration:none; 
   }
   .post-slide .over-layer i{
 	  position: relative;
