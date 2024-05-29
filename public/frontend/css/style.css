@@ -4961,7 +4961,7 @@ CSS
   }
   .post-slide:hover .over-layer{
 	  opacity:1;
-	  text-decoration:none;
+	  text-decoration:none; 
   }
   .post-slide .over-layer i{
 	  position: relative;
