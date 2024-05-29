@@ -216,7 +216,7 @@
 												</div>
 												<div class="col-lg-8 col-md-6 col-12">
 													<div class="list-content">
-														<div class="product-content">
+														<div class="product-content ">
 															<div class="product-price">
 																@php
 																	$after_discount=($product->price-($product->price*$product->discount)/100);

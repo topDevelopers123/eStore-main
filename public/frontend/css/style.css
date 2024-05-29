@@ -22,7 +22,8 @@ Version:1.0
 10. Cart CSS
 11. Checkout CSS
 12. Login & Register CSS
-13. Cowndown CSS
+13. Cowndown 
+CSS
 14. Shop Services CSS
 15. Newslatter CSS
 16. About Us CSS
@@ -4590,6 +4591,7 @@ Version:1.0
 	margin: 0;
 }
 
+<<<<<<< HEAD
 .about-us .about-img {
 	position: relative;
 	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -4604,6 +4606,14 @@ Version:1.0
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
+=======
+.about-us .about-img:before{
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+>>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 }
 
 .about-us .about-img:hover:before {
@@ -4647,7 +4657,17 @@ Version:1.0
 	width: 100%;
 
 }
+<<<<<<< HEAD
 
+=======
+.wwd{
+	background-color: #ffebcd;
+}
+.wwd .wwd_box{
+	background-color: #fff;
+	padding: 20px;
+}
+>>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 /*=============================
 	End About US CSS
 ===============================*/
@@ -5799,7 +5819,87 @@ Version:1.0
 	padding: 40px 25px;
 }
 
+<<<<<<< HEAD
 #news-slider {
+=======
+  #news-slider{
+	  margin-top: 20px;
+  }
+  .post-slide{
+	  background: #fff;
+	  border-radius: 15px;
+	  padding-top: 1px;
+	  box-shadow: 0px 14px 22px -9px #bbcbd8;
+	  width: 80%;
+  }
+  .post-slide .post-img{
+	  position: relative;
+	  overflow: hidden;
+	  border-radius: 10px;
+  }
+  .post-slide .post-img img{
+	  width: 100%;
+	  height: auto;
+	  transform: scale(1,1);
+	  transition:transform 0.2s linear;
+  }
+  .post-slide:hover .post-img img{
+	  transform: scale(1.1,1.1);
+  }
+  .post-slide .over-layer{
+	  width:100%;
+	  height:100%;
+	  position: absolute;
+	  top:0;
+	  left:0;
+	  opacity:0;
+	  transition:all 0.50s linear;
+  }
+  .post-slide:hover .over-layer{
+	  opacity:1;
+	  text-decoration:none; 
+  }
+  .post-slide .over-layer i{
+	  position: relative;
+	  top:45%;
+	  text-align:center;
+	  display: block;
+	  color:#fff;
+	  font-size:25px;
+  }
+  
+  .owl-controls .owl-buttons .owl-prev{
+	  background: #fff;
+	  position: absolute;
+	  top:-13%;
+	  left:15px;
+	  padding: 0 18px 0 15px;
+	  border-radius: 50px;
+	  box-shadow: 3px 14px 25px -10px #92b4d0;
+	  transition: background 0.5s ease 0s;
+  }
+  .owl-controls .owl-buttons .owl-next{
+	  background: #fff;
+	  position: absolute;
+	  top:-13%;
+	  right: 15px;
+	  padding: 0 15px 0 18px;
+	  border-radius: 50px;
+	  box-shadow: -3px 14px 25px -10px #92b4d0;
+	  transition: background 0.5s ease 0s;
+  }
+  .owl-controls .owl-buttons .owl-prev:after,
+  .owl-controls .owl-buttons .owl-next:after{
+	  content:"\f104";
+	  font-family: FontAwesome;
+	  color: #333;
+	  font-size:30px;
+  }
+  .owl-controls .owl-buttons .owl-next:after{
+	  content:"\f105";
+  }
+  .owl-theme .owl-dots{
+>>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 	margin-top: 20px;
 }
 

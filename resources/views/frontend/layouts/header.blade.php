@@ -183,6 +183,7 @@
     <div class="contaier-fluid main_catergories">
         <div class="container">
 
+<<<<<<< HEAD
             <div class="row   justify-content-center position-relative">
 
                 <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div ">
@@ -237,6 +238,15 @@
 
                         </div>
 
+=======
+        <div class="row   justify-content-center">
+            
+            <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div ">
+                <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div">
+                    <div class="sub_categories  text-center w-100 ">
+                    <img src="https://t3.ftcdn.net/jpg/03/28/19/46/360_F_328194664_RKSHvMLgHphnD1nwQYb4QKcNeEApJmqa.jpg" alt="">    
+                <h5>Men's</h5></div>
+>>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-4 w-100    d-flex justify-content-center  category_specific_div position-static">
