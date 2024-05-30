@@ -196,8 +196,10 @@
                         </div>
 
                         <div class="sub_Category_h1  col-lg-12 col-md-12 col-12 d-none ">
-                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
-                                <div class="sub_mega ">
+                            <div class="col-lg-4 col-md-4 col-sm-4  d-flex justify-content-center">
+                                <div class="sub_mega  w-100">
+                             
+
                                     <h5>Topwear</h5>
                                     <li><a href="javascript:void">T-Shirts</a></li>
                                     <li><a href="javascript:void">Casual Shirts</a></li>
@@ -209,35 +211,45 @@
                                     <li><a href="javascript:void">Coats</a></li>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
-                                <div class="sub_mega ">
-                                    <h5>Bottomwear</h5>
-
-                                    <li><a href="javascript:void">T-Shirts</a></li>
-                                    <li><a href="javascript:void">Casual Shirts</a></li>
-                                    <li><a href="javascript:void">Formal Shirts</a></li>
-                                    <li><a href="javascript:void">Jacket</a></li>
-                                    <li><a href="javascript:void">Sweaters</a></li>
-                                    <li><a href="javascript:void">Suits</a></li>
-                                    <li><a href="javascript:void">Rain Coats</a></li>
-                                    <li><a href="javascript:void">Coats</a></li>
-                                </div>
-                            </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
 
                                     <h5>Footwear</h5>
+                                    
+
+
+
+
                                     <li><a href="javascript:void">Play Shoes</a></li>
                                     <li><a href="javascript:void">Casual Shoes</a></li>
-                                    <li><a href="javascript:void">Formal Shirts</a></li>
-                                    <li><a href="javascript:void">Heels</a></li>
-                                    <li><a href="javascript:void">Boots</a></li>
-                                    <li><a href="javascript:void">Suits</a></li>
-                                    <li><a href="javascript:void">Flats</a></li>
-                                    <li><a href="javascript:void">Sports Shoes</a></li>
+                                    <li><a href="javascript:void">Formal Shoes</a></li>
+                                    <li><a href="javascript:void">Sneakers</a></li>
+                                    <li><a href="javascript:void">Sandals & Floaters</a></li>
+                                    <li><a href="javascript:void">Flip Flops</a></li>
+                                    <li><a href="javascript:void">Socks</a></li>
+                                 
                                 </div>
                             </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega w-100">
+                                    <h5>Bottomwear</h5>
+                                    
+
+
+
+
+                                    <li><a href="javascript:void">Casual Trousers</a></li>
+                                    <li><a href="javascript:void">Formal Trousers</a></li>
+                                    <li><a href="javascript:void">Shorts</a></li>
+                                    <li><a href="javascript:void">Track Pants & Joggers</a></li>
+                                    <li><a href="javascript:void">Jeans</a></li>
+                                    
+                                </div>
+                            </div>
+
+                           
 
 
                         </div>
@@ -252,46 +264,46 @@
                         </div>
                         <div class=" sub_Category_h2 col-lg-12 col-md-12 col-12 d-none ">
                             <div class="col-lg-4 col-md-4 col-sm- d-flex justify-content-center">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
                                     <h5> Indian & Fusion Wear</h5>
-                                    <li>Kurta </li>
-                                    <li>Sarees</li>
-                                    <li>Shirts & Palazzos</li>
-                                    <li>Jackets</li>
-                                    <li>Sweaters</li>
-                                    <li>Suits</li>
-                                    <li>Rain Coats</li>
-                                    <li>Lahenga</li>
+                                    <li><a href="javascript:void">Kurta</a> </li>
+                                    <li><a href="javascript:void">Sarees</a></li>
+                                    <li><a href="javascript:void">Shirts & Palazzos</a></li>
+                                    <li><a href="javascript:void">Jackets</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Rain Coats</a></li>
+                                    <li><a href="javascript:void">Lahenga</a></li>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center ">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
                                     <h5>Western Wear</h5>
 
-                                    <li>Dress </li>
-                                    <li>Shirts</li>
-                                    <li>Playsuit</li>
-                                    <li>Jacket</li>
-                                    <li>Sweaters</li>
-                                    <li>Suits</li>
-                                    <li>Jeans Coats</li>
-                                    <li>Coats</li>
+                                    <li><a href="javascript:void">Dress</a> </li>
+                                    <li><a href="javascript:void">Shirts</a></li>
+                                    <li><a href="javascript:void">Playsuit</a></li>
+                                    <li><a href="javascript:void">Jacket</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Jeans Coats</a> </li>
+                                    <li><a href="javascript:void">Coats</a></li>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
 
                                     <h5>Footwear</h5>
                                     <li>Play Shoes</li>
-                                    <li>Casual Shoes</li>
-                                    <li>Formal Shirts</li>
-                                    <li>Heels</li>
-                                    <li>Boots</li>
-                                    <li>Suits</li>
-                                    <li>Flats</li>
-                                    <li>Sports Shoes</li>
+                                    <li><a href="javascript:void">Casual Shoes</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</a></li>
+                                    <li><a href="javascript:void">Heels</a></li>
+                                    <li><a href="javascript:void">Boots</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Flats</a></li>
+                                    <li><a href="javascript:void">Sports Shoes</a></li>
                                 </div>
                             </div>
                         </div>
@@ -305,48 +317,48 @@
                         </div>
                         <div class="sub_Category_h3 col-lg-12 col-md-12 col-12 d-none  ">
                             <div class="col-lg-4 col-md-4 col-sm-4  d-flex justify-content-center">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
 
                                     <h5> Boys Clothing</h5>
-                                    <li>T-Shirts</li>
-                                    <li>Casual Shirts</li>
-                                    <li>Formal Shirts</li>
-                                    <li>Jacket</li>
-                                    <li>Sweaters</li>
-                                    <li>Suits</li>
-                                    <li>Rain Coats</li>
-                                    <li>Coats</li>
+                                    <li><a href="javascript:void">T-Shirts</a></li>
+                                    <li><a href="javascript:void">Casual Shirts</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</a></li>
+                                    <li><a href="javascript:void">Jacket</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Rain Coats</a></li>
+                                    <li><a href="javascript:void">Coats</a></li>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
 
                                     <h5>Girls Clothing</h5>
 
-                                    <li>T-Shirts</li>
-                                    <li>Casual Shirts</li>
-                                    <li>Formal Shirts</li>
-                                    <li>Jacket</li>
-                                    <li>Sweaters</li>
-                                    <li>Suits</li>
-                                    <li>Rain Coats</li>
-                                    <li>Coats</li>
+                                    <li><a href="javascript:void">T-Shirts</a></li>
+                                    <li><a href="javascript:void">Casual Shirts</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</a></li>
+                                    <li><a href="javascript:void">Jacket</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Rain Coats</a></li>
+                                    <li><a href="javascript:void">Coats</a></li>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
-                                <div class="sub_mega ">
+                                <div class="sub_mega w-100">
 
                                     <h5>Footwear</h5>
-                                    <li>T-Shirts</li>
-                                    <li>Casual Shirts</li>
-                                    <li>Formal Shirts</li>
-                                    <li>Jacket</li>
-                                    <li>Sweaters</li>
-                                    <li>Suits</li>
-                                    <li>Rain Coats</li>
-                                    <li>Coats</li>
+                                    <li><a href="javascript:void">T-Shirts</a></li>
+                                    <li><a href="javascript:void">Casual Shirts</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</a></li>
+                                    <li><a href="javascript:void">Jacket</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Rain Coats</a></li>
+                                    <li><a href="javascript:void">Coats</a></li>
                                 </div>
                             </div>
 

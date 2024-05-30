@@ -6023,14 +6023,25 @@ CSS
 	position: unset !important;
 }
 
+.sub_mega li{
+	transition: all 0.1s ease !important;
+	padding-block: 3px;
+}
+
+.sub_mega li a:hover{
+	color: black;
+	padding-left: 10px ;
+
+}
 
 /* For Men Category */
 .sub_Category_h1{
+	border: 1px solid black;
 	position: absolute;
-	top: 165px;
+	top: 164px;
 	left: 0;
 	z-index: 99;
-	background-color: #fff;
+	background-color: #f6f7fb;
 	transition: 0.8s ;
 	
 }
@@ -6062,11 +6073,12 @@ CSS
 
 
 .sub_Category_h2{
+	border: 1px solid black;
 	position: absolute;
-	top: 165px;
+	top: 164px;
 	left: 0;
 	z-index: 99;
-	background-color: #fff;
+	background-color: #f6f7fb;
 	transition: 0.8s ;
 
 }
@@ -6094,11 +6106,12 @@ CSS
 
 
 .sub_Category_h3{
+	border: 1px solid black;
 	position: absolute;
-	top: 165px;
+	top: 164px;
 	left: 0;
 	z-index: 99;
-	background-color: #fff;
+	background-color: #f6f7fb;
 	transition: 0.8s ;
 
 }

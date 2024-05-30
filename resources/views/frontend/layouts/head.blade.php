@@ -110,9 +110,11 @@
     }
     .category_specific_div .sub_categories {
         padding: 15px 0px;
+       
     }
     .category_specific_div .sub_categories h5{
         margin-top: 10px;
+
     }
 
     
