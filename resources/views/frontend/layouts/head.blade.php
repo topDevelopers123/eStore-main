@@ -69,7 +69,7 @@
         border-radius: 8px;
 
     }
-/*    
+  
     
     .single_product_div{
         transition: all 0.5s ease;
@@ -118,6 +118,6 @@
     
     
 
-    /*
+    
 </style>
 @stack('styles')

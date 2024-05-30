@@ -4591,7 +4591,6 @@ CSS
 	margin: 0;
 }
 
-<<<<<<< HEAD
 .about-us .about-img {
 	position: relative;
 	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -4606,14 +4605,13 @@ CSS
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-=======
+}
 .about-us .about-img:before{
 	opacity:0;
 	visibility:hidden;
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
->>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 }
 
 .about-us .about-img:hover:before {
@@ -4657,9 +4655,7 @@ CSS
 	width: 100%;
 
 }
-<<<<<<< HEAD
 
-=======
 .wwd{
 	background-color: #ffebcd;
 }
@@ -4667,7 +4663,6 @@ CSS
 	background-color: #fff;
 	padding: 20px;
 }
->>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 /*=============================
 	End About US CSS
 ===============================*/
@@ -5819,9 +5814,7 @@ CSS
 	padding: 40px 25px;
 }
 
-<<<<<<< HEAD
 #news-slider {
-=======
   #news-slider{
 	  margin-top: 20px;
   }
@@ -5899,8 +5892,8 @@ CSS
 	  content:"\f105";
   }
   .owl-theme .owl-dots{
->>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 	margin-top: 20px;
+}
 }
 
 .post-slide {

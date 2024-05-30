@@ -183,10 +183,10 @@
     <div class="contaier-fluid main_catergories">
         <div class="container">
 
-<<<<<<< HEAD
+
             <div class="row   justify-content-center position-relative">
 
-                <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div ">
+                <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div justify-content-between border border-dark">
 
                     <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div position-static ">
                         <div class="sub_categories sub_categories_1  text-center w-100 ">
@@ -237,18 +237,10 @@
 
 
                         </div>
-
-=======
-        <div class="row   justify-content-center">
-            
-            <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div ">
-                <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div">
-                    <div class="sub_categories  text-center w-100 ">
-                    <img src="https://t3.ftcdn.net/jpg/03/28/19/46/360_F_328194664_RKSHvMLgHphnD1nwQYb4QKcNeEApJmqa.jpg" alt="">    
-                <h5>Men's</h5></div>
->>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
                     </div>
 
+
+           
                     <div class="col-lg-4 col-md-4 col-4 w-100    d-flex justify-content-center  category_specific_div position-static">
                         <div class="sub_categories sub_categories_2 w-100  text-center">
                             <img src="https://st4.depositphotos.com/13193658/25036/i/450/depositphotos_250363326-stock-photo-smiling-attractive-woman-white-sweater.jpg" alt="">
@@ -256,7 +248,7 @@
                         </div>
                         <div class=" sub_Category_h2 col-lg-12 col-md-12 col-12 d-none  border border-dark">
 
-                            <table>
+                         
                                 <h1> Indian & Fusion Wear</h1>
                                 <li>Kurta </li>
                                 <li>Sarees</li>
@@ -288,7 +280,7 @@
                                 <li>Flats</li>
                                 <li>Sports Shoes</li>
 
-                            </table>
+               
 
                         </div>
                     </div>
@@ -301,7 +293,7 @@
                         </div>
                         <div class="sub_Category_h3 col-lg-12 col-md-12 col-12 d-none  border border-dark">
 
-                            <table>
+                    
 
                                 <h1> Boys Clothing</h1>
                                 <li>T-Shirts</li>
@@ -334,13 +326,13 @@
                                 <li>Rain Coats</li>
                                 <li>Coats</li>
 
-                            </table>
+                        
 
                         </div>
                     </div>
 
 
-                </div>
+          
             </div>
         </div>
     </div>
