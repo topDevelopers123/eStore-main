@@ -74,11 +74,11 @@
 
 										<!-- End Product slider -->
 									</div>
-									<div class="col-lg-6 col-12">
-										<div class="product-des">
+									<div class="col-lg-6 col-12 pt-3">
+										<div class="product-des ">
 											<!-- Description -->
-											<div class="short">
-												<h4>{{$product_detail->title}}</h4>
+											<div class="short ">
+												<h4 class="">{{$product_detail->title}}</h4>
 												<div class="rating-main">
 													<ul class="rating">
 														@php

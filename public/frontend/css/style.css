@@ -2771,7 +2771,10 @@ CSS
 	border-bottom: 1px solid #eee;
 }
 
-.shop.single .product-des {}
+.shop.single .product-des {
+	background-color: transparent !important;
+
+}
 
 .shop.single .product-des .total-review {
 	font-size: 14px;
