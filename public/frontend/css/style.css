@@ -6031,6 +6031,7 @@ CSS
 .sub_mega li a:hover{
 	color: black;
 	padding-left: 10px ;
+	font-weight: bold;
 
 }
 

@@ -332,7 +332,7 @@
                                     // dd($categories);
                                 @endphp
                                 @if($categories)
-                                <button class="btn" style="background:green"data-filter="*">
+                                <button class="btn " style="background:green"data-filter="*">
                                     All Products
                                 </button>
                                     @foreach($categories as $key=>$cat)
@@ -349,7 +349,7 @@
                              <!-- Start Single Tab -->
                             @if($product_lists)
                                 @foreach($product_lists as $key=>$product)
-                                <div class="col-sm-6 col-md-4 col-lg-3 tab_content_mini mr-5 mt-3  border  px-0   isotope-item {{$product->cat_id}}">
+                                <div class=" col-md-4 col-lg-3 col-sm-6 tab_content_mini mr-5 mt-3  border  px-0   isotope-item {{$product->cat_id}}">
                                     <div class="single-product single_product_div m-0">
                                         <div class="product-img col-sm-12 col-md-12 col-lg-12 px-0 d-flex justify-content-center align-items-center ">
 
