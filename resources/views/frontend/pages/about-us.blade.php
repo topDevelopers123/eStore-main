@@ -143,28 +143,15 @@
 
 
 <!-- Start Shop Services Area -->
-<section class="shop-services section home">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-12">
-				<!-- Start Single Service -->
-				<div class="single-service">
-					<i class="ti-rocket"></i>
-					<h4>Free shiping</h4>
-					<p>Orders over $100</p>
-				</div>
-				<!-- End Single Service -->
-			</div>
-<<<<<<< HEAD
-	</section>
+
 	<!-- End About Us -->
 
 
 	
 	<!-- Start Shop Services Area -->
-	<section class="shop-services section">
+	<section class="shop-services section home">
 		<div class="container">
-			<div class="row">
+			<div class="row ">
 				<div class="col-lg-3 col-md-6 col-12">
 					<!-- Start Single Service -->
 					<div class="single-service">
@@ -172,15 +159,14 @@
 						<h4>Free shiping</h4>
 						<p>Orders over $100</p>
 					</div>
+				</div>
 					<!-- End Single Service -->
-=======
 			<div class="col-lg-3 col-md-6 col-12">
 				<!-- Start Single Service -->
 				<div class="single-service">
 					<i class="ti-reload"></i>
 					<h4>Free Return</h4>
 					<p>Within 30 days returns</p>
->>>>>>> c5be3f5ef9326624a0dfd82ba5da4942cbe35c23
 				</div>
 				<!-- End Single Service -->
 			</div>

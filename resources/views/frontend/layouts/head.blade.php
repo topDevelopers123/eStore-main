@@ -64,7 +64,7 @@
     }
     .product-img a .img_section{
         width: 100% !important;
-        height: 300px;
+        height: 350px;
         object-fit: cover;
         border-radius: 8px;
 

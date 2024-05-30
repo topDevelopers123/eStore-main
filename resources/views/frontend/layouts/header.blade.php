@@ -186,7 +186,7 @@
 
             <div class="row   justify-content-center position-relative">
 
-                <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div justify-content-between border border-dark">
+                <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div justify-content-between ">
 
                     <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div position-static ">
                         <div class="sub_categories sub_categories_1  text-center w-100 ">

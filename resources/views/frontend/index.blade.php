@@ -137,7 +137,7 @@
            <div class="bdr"></div>
         </div>
         
-  <div class="row">
+  <div class="row mt-4">
     <div class="col-md-12">
       <div id="news-slider" class="owl-carousel">
         <div class="post-slide">
