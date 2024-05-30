@@ -4591,14 +4591,6 @@ CSS
 	margin: 0;
 }
 
-.about-us .about-img {
-	position: relative;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	border: 10px solid #fff;
-}
-
 .about-us .about-img:before {
 	opacity: 0;
 	visibility: hidden;
@@ -4662,6 +4654,7 @@ CSS
 .wwd .wwd_box{
 	background-color: #fff;
 	padding: 20px;
+	margin: 10px;
 }
 /*=============================
 	End About US CSS
@@ -6034,7 +6027,7 @@ CSS
 	top: 165px;
 	left: 0;
 	z-index: 99;
-	background-color: lightblue;
+	background-color: #fff;
 	transition: 0.8s ;
 	
 }
@@ -6046,8 +6039,21 @@ CSS
 }
 
 .sub_Category_h1:hover{
-	display: block !important;
+	display: flex !important;
 }
+.sub_Category_h1 .sub_mega {
+	padding: 10px;
+}
+.sub_Category_h1 .sub_mega  h5{
+	margin-bottom: 10px;
+	color: #f7941d;
+}
+.sub_Category_h1 .sub_mega li{
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+
 
 /* For Women Category */
 
@@ -6057,19 +6063,27 @@ CSS
 	top: 165px;
 	left: 0;
 	z-index: 99;
-	background-color: lightpink;
+	background-color: #fff;
 	transition: 0.8s ;
 
 }
 
 .sub_categories_2:hover + .sub_Category_h2{
-	display: block !important;
+	display: flex !important;
 }
 .sub_Category_h2:hover{
-	display: block !important;
-}
-.sub_Category_h1 table {
 	display: flex !important;
+}
+.sub_Category_h2 .sub_mega {
+	padding: 10px;
+}
+.sub_Category_h2 .sub_mega  h5{
+	margin-bottom: 10px;
+	color: #f7941d;
+}
+.sub_Category_h2 .sub_mega li{
+	list-style-type: none;
+	padding-left: 5px;
 }
 
 
@@ -6081,16 +6095,27 @@ CSS
 	top: 165px;
 	left: 0;
 	z-index: 99;
-	background-color: lightgreen;
+	background-color: #fff;
 	transition: 0.8s ;
 
 }
 
 .sub_categories_3:hover + .sub_Category_h3{
-	display: block !important;
+	display: flex !important;
 }
 .sub_Category_h3:hover{
-	display: block !important;
+	display: flex !important;
+}
+.sub_Category_h3 .sub_mega {
+	padding: 10px;
+}
+.sub_Category_h3 .sub_mega  h5{
+	margin-bottom: 10px;
+	color: #f7941d;
+}
+.sub_Category_h3 .sub_mega li{
+	list-style-type: none;
+	padding-left: 5px;
 }
 
 

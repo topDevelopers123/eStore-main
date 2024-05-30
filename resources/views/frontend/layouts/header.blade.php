@@ -186,7 +186,7 @@
 
             <div class="row   justify-content-center position-relative">
 
-                <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div justify-content-between border border-dark">
+                <div class="col-lg-6 col-md-12 col-12 d-flex category_specific_main_div justify-content-between ">
 
                     <div class="col-lg-4 col-md-4 col-4 w-100 d-flex justify-content-center  category_specific_div position-static ">
                         <div class="sub_categories sub_categories_1  text-center w-100 ">
@@ -195,93 +195,105 @@
 
                         </div>
 
-                        <div class="sub_Category_h1  col-lg-12 col-md-12 col-12 d-none  border border-dark">
-
-                                <div class="sub_mega col-lg-4 col-md-4 col-sm-4">
-                                    <h1> Topwear</h1>
-                                    <li>T-Shirts</li>
-                                    <li>Casual Shirts</li>
-                                    <li>Formal Shirts</li>
-                                    <li>Jacket</li>
-                                    <li>Sweaters</li>
-                                    <li>Suits</li>
-                                    <li>Rain Coats</li>
-                                    <li>Coats</li>
+                        <div class="sub_Category_h1  col-lg-12 col-md-12 col-12 d-none ">
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega ">
+                                    <h5>Topwear</h5>
+                                    <li><a href="javascript:void">T-Shirts</a></li>
+                                    <li><a href="javascript:void">Casual Shirts</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</li>
+                                    <li><a href="javascript:void">Jacket</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Rain Coats</a></li>
+                                    <li><a href="javascript:void">Coats</a></li>
                                 </div>
-                                
-                                <div class="sub_mega col-lg-4 col-md-4 col-sm-4">
-                                <h1>Bottomwear</h1>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega ">
+                                    <h5>Bottomwear</h5>
 
-                                <li>T-Shirts</li>
-                                <li>Casual Shirts</li>
-                                <li>Formal Shirts</li>
-                                <li>Jacket</li>
-                                <li>Sweaters</li>
-                                <li>Suits</li>
-                                <li>Rain Coats</li>
-                                <li>Coats</li>
+                                    <li><a href="javascript:void">T-Shirts</a></li>
+                                    <li><a href="javascript:void">Casual Shirts</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</a></li>
+                                    <li><a href="javascript:void">Jacket</a></li>
+                                    <li><a href="javascript:void">Sweaters</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Rain Coats</a></li>
+                                    <li><a href="javascript:void">Coats</a></li>
                                 </div>
+                            </div>
 
-                                <div class="sub_mega col-lg-4 col-md-4 col-sm-4">
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega ">
 
-                                <h1>Footwear</h1>
-                                <li>Play Shoes</li>
-                                <li>Casual Shoes</li>
-                                <li>Formal Shirts</li>
-                                <li>Heels</li>
-                                <li>Boots</li>
-                                <li>Suits</li>
-                                <li>Flats</li>
-                                <li>Sports Shoes</li>
+                                    <h5>Footwear</h5>
+                                    <li><a href="javascript:void">Play Shoes</a></li>
+                                    <li><a href="javascript:void">Casual Shoes</a></li>
+                                    <li><a href="javascript:void">Formal Shirts</a></li>
+                                    <li><a href="javascript:void">Heels</a></li>
+                                    <li><a href="javascript:void">Boots</a></li>
+                                    <li><a href="javascript:void">Suits</a></li>
+                                    <li><a href="javascript:void">Flats</a></li>
+                                    <li><a href="javascript:void">Sports Shoes</a></li>
                                 </div>
+                            </div>
 
 
                         </div>
                     </div>
 
 
-           
+
                     <div class="col-lg-4 col-md-4 col-4 w-100    d-flex justify-content-center  category_specific_div position-static">
                         <div class="sub_categories sub_categories_2 w-100  text-center">
                             <img src="https://st4.depositphotos.com/13193658/25036/i/450/depositphotos_250363326-stock-photo-smiling-attractive-woman-white-sweater.jpg" alt="">
                             <h5>Women's</h5>
                         </div>
-                        <div class=" sub_Category_h2 col-lg-12 col-md-12 col-12 d-none  border border-dark">
+                        <div class=" sub_Category_h2 col-lg-12 col-md-12 col-12 d-none ">
+                            <div class="col-lg-4 col-md-4 col-sm- d-flex justify-content-center">
+                                <div class="sub_mega ">
+                                    <h5> Indian & Fusion Wear</h5>
+                                    <li>Kurta </li>
+                                    <li>Sarees</li>
+                                    <li>Shirts & Palazzos</li>
+                                    <li>Jackets</li>
+                                    <li>Sweaters</li>
+                                    <li>Suits</li>
+                                    <li>Rain Coats</li>
+                                    <li>Lahenga</li>
+                                </div>
+                            </div>
 
-                         
-                                <h1> Indian & Fusion Wear</h1>
-                                <li>Kurta </li>
-                                <li>Sarees</li>
-                                <li>Shirts & Palazzos</li>
-                                <li>Jackets</li>
-                                <li>Sweaters</li>
-                                <li>Suits</li>
-                                <li>Rain Coats</li>
-                                <li>Lahenga</li>
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center ">
+                                <div class="sub_mega ">
+                                    <h5>Western Wear</h5>
 
-                                <h1>Western Wear</h1>
+                                    <li>Dress </li>
+                                    <li>Shirts</li>
+                                    <li>Playsuit</li>
+                                    <li>Jacket</li>
+                                    <li>Sweaters</li>
+                                    <li>Suits</li>
+                                    <li>Jeans Coats</li>
+                                    <li>Coats</li>
+                                </div>
+                            </div>
 
-                                <li>Dress </li>
-                                <li>Shirts</li>
-                                <li>Playsuit</li>
-                                <li>Jacket</li>
-                                <li>Sweaters</li>
-                                <li>Suits</li>
-                                <li>Jeans Coats</li>
-                                <li>Coats</li>
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega ">
 
-                                <h1>Footwear</h1>
-                                <li>Play Shoes</li>
-                                <li>Casual Shoes</li>
-                                <li>Formal Shirts</li>
-                                <li>Heels</li>
-                                <li>Boots</li>
-                                <li>Suits</li>
-                                <li>Flats</li>
-                                <li>Sports Shoes</li>
-
-               
-
+                                    <h5>Footwear</h5>
+                                    <li>Play Shoes</li>
+                                    <li>Casual Shoes</li>
+                                    <li>Formal Shirts</li>
+                                    <li>Heels</li>
+                                    <li>Boots</li>
+                                    <li>Suits</li>
+                                    <li>Flats</li>
+                                    <li>Sports Shoes</li>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -291,49 +303,59 @@
                             <img src="https://img.freepik.com/premium-photo/small-4-year-old-boy-with-curly-hairstyle-stand-against-pastel-color-background_758367-99107.jpg" alt="">
                             <h5>Kid's</h5>
                         </div>
-                        <div class="sub_Category_h3 col-lg-12 col-md-12 col-12 d-none  border border-dark">
+                        <div class="sub_Category_h3 col-lg-12 col-md-12 col-12 d-none  ">
+                            <div class="col-lg-4 col-md-4 col-sm-4  d-flex justify-content-center">
+                                <div class="sub_mega ">
 
-                    
+                                    <h5> Boys Clothing</h5>
+                                    <li>T-Shirts</li>
+                                    <li>Casual Shirts</li>
+                                    <li>Formal Shirts</li>
+                                    <li>Jacket</li>
+                                    <li>Sweaters</li>
+                                    <li>Suits</li>
+                                    <li>Rain Coats</li>
+                                    <li>Coats</li>
+                                </div>
+                            </div>
 
-                                <h1> Boys Clothing</h1>
-                                <li>T-Shirts</li>
-                                <li>Casual Shirts</li>
-                                <li>Formal Shirts</li>
-                                <li>Jacket</li>
-                                <li>Sweaters</li>
-                                <li>Suits</li>
-                                <li>Rain Coats</li>
-                                <li>Coats</li>
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega ">
 
-                                <h1>Girls Clothing</h1>
+                                    <h5>Girls Clothing</h5>
 
-                                <li>T-Shirts</li>
-                                <li>Casual Shirts</li>
-                                <li>Formal Shirts</li>
-                                <li>Jacket</li>
-                                <li>Sweaters</li>
-                                <li>Suits</li>
-                                <li>Rain Coats</li>
-                                <li>Coats</li>
+                                    <li>T-Shirts</li>
+                                    <li>Casual Shirts</li>
+                                    <li>Formal Shirts</li>
+                                    <li>Jacket</li>
+                                    <li>Sweaters</li>
+                                    <li>Suits</li>
+                                    <li>Rain Coats</li>
+                                    <li>Coats</li>
+                                </div>
+                            </div>
 
-                                <h1>Footwear</h1>
-                                <li>T-Shirts</li>
-                                <li>Casual Shirts</li>
-                                <li>Formal Shirts</li>
-                                <li>Jacket</li>
-                                <li>Sweaters</li>
-                                <li>Suits</li>
-                                <li>Rain Coats</li>
-                                <li>Coats</li>
+                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                <div class="sub_mega ">
 
-                        
+                                    <h5>Footwear</h5>
+                                    <li>T-Shirts</li>
+                                    <li>Casual Shirts</li>
+                                    <li>Formal Shirts</li>
+                                    <li>Jacket</li>
+                                    <li>Sweaters</li>
+                                    <li>Suits</li>
+                                    <li>Rain Coats</li>
+                                    <li>Coats</li>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
 
 
-          
+
+                </div>
             </div>
         </div>
-    </div>
 </header>

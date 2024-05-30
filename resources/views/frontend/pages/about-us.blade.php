@@ -84,7 +84,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="wwd_box">
 					<div class="icon">
 
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="wwd_box">
 					<div class="icon">
 
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="wwd_box">
 					<div class="icon">
 
@@ -123,7 +123,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="wwd_box">
 					<div class="icon">
 
