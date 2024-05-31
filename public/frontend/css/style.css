@@ -828,20 +828,19 @@ CSS
 }
 
 .header.shop .search-bar input {
-	height: 40px;
-	background: transparent;
+	background: transparent !important;
 	color: #666;
-	border-radius: 0;
+	border-radius: 8px;
 	border: none;
 	font-size: 14px;
 	font-weight: 400;
 	padding: 0 25px 0 20px;
-	width: 328px;
+	width: 470px;
 
 }
 
 .header.shop .search-bar input:focus-visible {
-	/* border: none ; */
+	border: none ;
 	outline: none;
 }
 
@@ -5991,6 +5990,40 @@ CSS
 	border-radius: 50%;
 }
 
+.first{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.first img{
+	width: 100%;
+	height: 22%;
+	cursor: pointer;
+
+}
+
+.second{
+	height: 500px;
+}
+
+.second img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: center;
+	transition: all 1s ease;
+	
+}
+
+.second .second_img_1{
+	z-index: 5 !important;
+
+}
+
 
 
 @media only screen and (max-width:1280px) {
@@ -6037,7 +6070,7 @@ CSS
 
 /* For Men Category */
 .sub_Category_h1{
-	border: 1px solid black;
+	border-top: 3px solid orange;
 	position: absolute;
 	top: 164px;
 	left: 0;
@@ -6074,7 +6107,7 @@ CSS
 
 
 .sub_Category_h2{
-	border: 1px solid black;
+	border-top: 3px solid orange;
 	position: absolute;
 	top: 164px;
 	left: 0;
@@ -6107,7 +6140,7 @@ CSS
 
 
 .sub_Category_h3{
-	border: 1px solid black;
+	border-top: 3px solid orange;
 	position: absolute;
 	top: 164px;
 	left: 0;

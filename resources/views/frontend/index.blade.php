@@ -462,13 +462,7 @@
 <!-- Start Most Popular -->
 <div class="product-area most-popular section">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h2>Hot Item</h2>
-                </div>
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col-12">
                 <div class="owl-carousel popular-slider">
@@ -533,64 +527,8 @@
 </div>
 <!-- End Most Popular Area -->
 
-<!-- Start Shop Home List  -->
-<section class="shop-home-list section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="shop-section-title">
-                            <h1>Latest Items</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    @php
-                        $product_lists=DB::table('products')->where('status','active')->orderBy('id','DESC')->limit(6)->get();
-                    @endphp
-                    @foreach($product_lists as $product)
-                        <div class="col-md-4">
-                            <!-- Start Single List  -->
-                            <div class="single-list">
-                                <div class="row">
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <div class="list-image overlay">
-                                        <!-- delay -->
 
-                                        @if (!empty($product->product_image) && !empty($product->product_image->image_name))
-                     
-                                        <img src="{{ asset('public/product_image/'.$product->product_image->image_name) }}"  class="img-fluid zoom" style="max-width:80px" alt="$product->product_image->image_name">
-                                      @else
-                                      <img src="{{asset('backend/img/thumbnail-default.jpg')}}" class="img-fluid" style="max-width:80px" alt="avatar.png">
-                                    
-                                      @endif
-                                        <!-- find  -->
-                                         <!-- @php
-                                            $photo=explode(',',$product->photo);
-                                        @endphp -->
-                                        <!-- <img src="{{$photo[0]}}" alt="{{$photo[0]}}"> -->
-                                        <a href="{{route('add-to-cart',$product->slug)}}" class="buy"><i class="fa fa-shopping-bag"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12 no-padding">
-                                    <div class="content">
-                                        <h4 class="title"><a href="#">{{$product->title}}</a></h4>
-                                        <p class="price with-discount">{{number_format($product->discount,2)}}</p>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- End Single List  -->
-                        </div>
-                    @endforeach
 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Shop Home List  -->
 
 <!-- Start Shop Blog  -->
 
@@ -638,7 +576,7 @@
                 <div class="single-service">
                     <i class="ti-rocket"></i>
                     <h4>Free shiping</h4>
-                    <p>Orders over $100</p>
+                    <p class="m-0">Orders over $100</p>
                 </div>
                 <!-- End Single Service -->
             </div>
@@ -647,7 +585,7 @@
                 <div class="single-service">
                     <i class="ti-reload"></i>
                     <h4>Free Return</h4>
-                    <p>Within 30 days returns</p>
+                    <p class="m-0">Within 30 days returns</p>
                 </div>
                 <!-- End Single Service -->
             </div>
@@ -656,7 +594,7 @@
                 <div class="single-service">
                     <i class="ti-lock"></i>
                     <h4>Sucure Payment</h4>
-                    <p>100% secure payment</p>
+                    <p class="m-0">100% secure payment</p>
                 </div>
                 <!-- End Single Service -->
             </div>
@@ -665,7 +603,7 @@
                 <div class="single-service">
                     <i class="ti-tag"></i>
                     <h4>Best Peice</h4>
-                    <p>Guaranteed price</p>
+                    <p class="m-0">Guaranteed price</p>
                 </div>
                 <!-- End Single Service -->
             </div>

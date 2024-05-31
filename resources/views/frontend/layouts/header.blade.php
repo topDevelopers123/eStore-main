@@ -45,13 +45,14 @@
                         <div class="menu-area p-0 col-lg-12 col-md-12 col-sm-12  d-flex justify-content-center align-items-center ">
                             <!-- Main Menu -->
                             <nav class="navbar navbar-expand-lg w-100">
-                                <div class="navbar-collapse border border-dark w-100 px-3">
-                                    <div class="nav-inner nav_inner_div">
-                                        <ul class="nav main-menu menu navbar-nav ">
+                                <div class="navbar-collapse  w-100 px-3">
+                                    <div class="nav-inner nav_inner_div  d-flex align-items-center">
+                                        <img src="https://www.seekpng.com/png/full/428-4289671_logo-e-commerce-good-e-commerce-logo.png" class="pl-3  bg-transparent m-0" style="width: 100px;" alt="">
+                                        <ul class="nav main-menu menu navbar-nav ml-5">
 
                                             <li class="{{Request::path()=='home' ? 'active' : ''}}"><a href="{{route('home')}}">Home</a></li>
                                             <li class="@if(Request::path()=='product-grids'||Request::path()=='product-lists')  active  @endif"><a href="{{route('product-grids')}}">Products</a><span class="new">New</span></li>
-                                            {{Helper::getHeaderCategory()}}
+                                           
                                             <!-- <li class="{{Request::path()=='blog' ? 'active' : ''}}"><a href="{{route('blog')}}">Blog</a></li>									 -->
                                             <li class="{{Request::path()=='about-us' ? 'active' : ''}}"><a href="{{route('about-us')}}">About Us</a></li>
 
@@ -296,7 +297,7 @@
                                 <div class="sub_mega w-100">
 
                                     <h5>Footwear</h5>
-                                    <li>Play Shoes</li>
+                                    <li><a href="javascript:void">Play Shoes</a></li>
                                     <li><a href="javascript:void">Casual Shoes</a></li>
                                     <li><a href="javascript:void">Formal Shirts</a></li>
                                     <li><a href="javascript:void">Heels</a></li>
