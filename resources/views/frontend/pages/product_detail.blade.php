@@ -60,14 +60,14 @@
 														
                                                 <!-- <img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid  col-10" style="height: 500px;"  alt="$product->product_image->image_name"> -->
 												
-												<div class=" row col-12 border border-dark d-flex justify-content-between p-0">
-													<div class="first p-0 col-2 border border-dark">
+												<div class=" row col-12  d-flex justify-content-between p-0">
+													<div class="first p-0 col-2 ">
 														<img src="https://rukminim2.flixcart.com/image/832/832/klo27bk0/t-shirt/r/q/j/l-t324hs-ornbwh-seven-rocks-original-imagyqg4wc3fxzy4.jpeg?q=70&crop=false" class=" first_img_1" alt="">
 														<img src="https://m.media-amazon.com/images/I/51E2wnSIi+L._SY550_.jpg" class=" first_img_2" alt="">
 														<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJwChNpIehSG6hil12xzehjnWSDqAsidGj2y1maD4FrAsliWeb" class=" first_img_3" alt="">
 														<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYfdUxEKTWAAK1cglnhdaA9hjfHmGyjZv9ryjAH5nuiocpWe50" class=" first_img_4" alt="">
 													</div>
-													<div class="second col-10  position relative  ">
+													<div class="second col-10   position-relative  ">
 														
 													<img src="https://rukminim2.flixcart.com/image/832/832/klo27bk0/t-shirt/r/q/j/l-t324hs-ornbwh-seven-rocks-original-imagyqg4wc3fxzy4.jpeg?q=70&crop=false" class=" second_img_1" alt="">
 														<img src="https://m.media-amazon.com/images/I/51E2wnSIi+L._SY550_.jpg" class="border second_img_2" alt="">
