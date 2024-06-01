@@ -80,7 +80,7 @@
 									<i class="fa fa-phone"></i>
 									<h4 class="title">Call us Now:</h4>
 									<ul>
-										<li>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
+										<li><a href="tel:9262852851" >@foreach($settings as $data) {{$data->phone}} @endforeach</a></li>
 									</ul>
 								</div>
 								<div class="single-info">

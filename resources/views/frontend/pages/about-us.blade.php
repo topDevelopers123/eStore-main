@@ -90,6 +90,7 @@
 </section>
 <!-- End About Us -->
 
+<<<<<<< HEAD
 <!-- Objective start  -->
 <section class="objective_sec">
 	<div class="shape">
@@ -146,6 +147,39 @@
 	</div>
 </section>
 <!-- Objective end  -->
+=======
+<!-- Counter Section Start -->
+
+<section>
+      <div class="container d-flex justify-content-center align-content-center  mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-dark  text-center fw-bold">Fashion with  a Heart-Because </h1>
+            <h1 class="  fw-bold">Giving Back Never Goes Out of Style </h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container m-5 p-5 d-flex justify-content-center ">
+        <div class="row w-100">
+        <div class="col-md-4 col-sm-12 text-center">
+          <h1 class="text-warning display-3 fw-bold number_s" id="number1"></h1>
+          <p class="charity_para ">Donated to charity</p>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center ">
+          <h1 class="text-warning display-3 fw-bold number_s" id="number2"></h1>
+          <p class="charity_para ">Charity partner</p>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+          <h1 class="text-warning display-3 fw-bold number_s" id="number3"></h1>
+          <p class="charity_para ">Happy customers</p>
+        </div>
+      </div></div>
+    </section>
+
+
+<!-- Counter Section End -->
+>>>>>>> 21b04546f0dbd80e093a96612b73981e86ce00f8
 
 <!-- What We Do  -->
 <section class="wwd section">
@@ -264,7 +298,66 @@
 	</div>
 </section>
 <!-- End Shop Services Area -->
+<script>
+	let downloadCount1 = 0;
+let downloadCount2 = 0;
+let downloadCount3 = 0;
 
+let intervalId1, intervalId2, intervalId3;
+
+function formatNumber(number) {
+    if (number >= 500) {
+        return (number / 10).toFixed(1) + 'k';
+    }
+    return number;
+}
+
+function updateDisplay1() {
+    document.getElementById('number1').textContent = formatNumber(downloadCount1);
+}
+
+function updateDisplay2() {
+    document.getElementById('number2').textContent = formatNumber(downloadCount2);
+}
+
+function updateDisplay3() {
+    document.getElementById('number3').textContent = formatNumber(downloadCount3);
+}
+
+function incrementDownloads1() {
+    downloadCount1++;
+    if (downloadCount1 === 600) {
+        clearInterval(intervalId1);
+        return;
+    }
+    updateDisplay1();
+}
+
+function incrementDownloads2() {
+    downloadCount2++;
+    if (downloadCount2 === 700) {
+        clearInterval(intervalId2);
+        return;
+    }
+    updateDisplay2();
+}
+
+function incrementDownloads3() {
+    downloadCount3++;
+    if (downloadCount3 === 800) {
+        clearInterval(intervalId3);
+        return;
+    }
+    updateDisplay3();
+}
+
+intervalId1 = setInterval(incrementDownloads1, 10);
+intervalId2 = setInterval(incrementDownloads2, 10);
+intervalId3 = setInterval(incrementDownloads3, 10);
+
+
+
+</script>
 
 @include('frontend.layouts.newsletter')
 @endsection

@@ -55,7 +55,6 @@
 															<img src="{{$data}}" alt="{{$data}}">
 														</li>
 													@endforeach --}}
-
 												@if (!empty($product_detail->product_image) && !empty($product_detail->product_image->image_name))
 														
                                                 <!-- <img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid  col-10" style="height: 500px;"  alt="$product->product_image->image_name"> -->
@@ -165,11 +164,16 @@
 																</button>
 															</div>
 														</div>
-													<!--/ End Input Order -->
+
+														<div  class="add-to-cart mt-4">
+														<a href="{{route('add-to-wishlist',$product_detail->slug)}}" class="add-to-cart btn min"><i class="ti-heart"></i></a></div>
 													</div>
+													<!--/ End Input Order -->
 													<div class="add-to-cart mt-4">
 														<button type="submit" class="btn">Add to cart</button>
-														<a href="{{route('add-to-wishlist',$product_detail->slug)}}" class="btn min"><i class="ti-heart"></i></a>
+														<button type="submit" class="btn buy-now-pro">Buy Now</button>
+
+													
 													</div>
 												</form>
 
@@ -341,19 +345,19 @@
 					</div>
 				</div>
             </div>
-            <div class="row">
+            <div class="row ">
                 {{-- {{$product_detail->rel_prods}} --}}
                 <div class="col-12">
-                    <div class="owl-carousel popular-slider">
+                    <div class="owl-carousel popular-slider  ">
                         @foreach($product_detail->rel_prods as $data)
                             @if($data->id !==$product_detail->id)
                                 <!-- Start Single Product -->
-                                <div class="single-product ">
-                                    <div class="product-img">
+                                <div class="single-product ml-2 mr-2 ">
+                                    <div class="product-img border border-dark">
 										<a href="{{route('product-detail',$data->slug)}}">
 											@if (!empty($product_detail->product_image) && !empty($product_detail->product_image->image_name))
                      
-											<img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid " style="max-width:100%; max-height:100%;" alt="$product->product_image->image_name">
+											<img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid "  alt="$product->product_image->image_name">
 										  @else
 										  <img src="{{asset('backend/img/thumbnail-default.jpg')}}" class="img-fluid" style="max-width:80px" alt="avatar.png">
 										
@@ -365,7 +369,7 @@
                                             <img class="default-img" src="{{$photo[0]}}" alt="{{$photo[0]}}">
                                             <img class="hover-img" src="{{$photo[0]}}" alt="{{$photo[0]}}"> --}}
                                             <span class="price-dec">{{$data->discount}} % Off</span>
-                                                                     <span class="out-of-stock">Hot</span> 
+                                                                     
                                         </a>
                                         <div class="button-head">
                                             <div class="product-action">
@@ -373,19 +377,22 @@
                                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
                                                 <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
                                             </div>
-                                            <div class="product-action-2">
-                                                <a title="Add to cart" href="#">Add to cart</a>
+                                            <div class="product-action-2 add-to-cart ">
+												<button class='add_to_cart_btn'>
+												
+                                                <a title="Add to cart" href="#" class="text-light" >Add to cart</a>
+									</button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content p-2">
-                                        <h3><a href="{{route('product-detail',$data->slug)}}">{{$data->title}}</a></h3>
-                                        <div class="product-price">
+                                    <div class="product-content product-content-div   p-2">
+                                        <h3><a href="{{route('product-detail',$data->slug)}}" class="text-dark">{{$data->title}}</a></h3>
+                                        <div class="product-price  ">
                                             @php 
                                                 $after_discount=($data->price-(($data->discount*$data->price)/100));
                                             @endphp
-                                            <span class="old">${{number_format($data->price,2)}}</span>
-                                            <span>${{number_format($after_discount,2)}}</span>
+                                            <span class="old text-dark fw-bold">${{number_format($data->price,2)}}</span>
+                                            <span class="text-success fw-bold">${{number_format($after_discount,2)}}</span>
                                         </div>
                                       
                                     </div>

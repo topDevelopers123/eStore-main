@@ -2292,7 +2292,7 @@ CSS
 	width: 100%;
 	position: absolute;
 	left: 0;
-	bottom: -50px;
+	bottom: -70px;
 	z-index: 9;
 	height: 50px;
 	line-height: 50px;
@@ -2302,7 +2302,9 @@ CSS
 }
 
 .single-product:hover .button-head {
-	bottom: 0;
+	position: absolute;
+	bottom: 2%;
+	left: 0;
 }
 
 .single-product .product-img .shop-list-quickview {
@@ -2366,6 +2368,7 @@ CSS
 	opacity: 1;
 }
 
+
 .single-product .product-content h3 {
 	line-height: 22px;
 }
@@ -2393,6 +2396,10 @@ CSS
 	text-decoration: line-through;
 	opacity: .6;
 	margin-right: 2px;
+}
+
+.product-content-div{
+	/* background-color: rgb(230, 250, 250); */
 }
 
 /*======================================
@@ -3021,6 +3028,16 @@ CSS
 	color: #fff;
 	background: #F7941D;
 }
+.shop.single .add-to-cart  .buy-now-pro{
+	color: #fff;
+	background: #F7941D;
+}
+.shop.single .add-to-cart  .buy-now-pro:hover{
+	color: #fff;
+	background: #333;
+}
+
+
 
 .shop.single .add-to-cart .btn.min {
 	padding: 0 20px;
@@ -6291,7 +6308,18 @@ CSS
 	animation: flash 1.5s;
 }
 
+.a_heart{
+	color: orange;
+}
 
+.number_s{
+	color: #F7941D !important;
+}
+
+.charity_para{
+	font-weight: bold;	
+	font-size: 20px;
+}
 /* List */
 
 
