@@ -3021,6 +3021,16 @@ CSS
 	color: #fff;
 	background: #F7941D;
 }
+.shop.single .add-to-cart  .buy-now-pro{
+	color: #fff;
+	background: #F7941D;
+}
+.shop.single .add-to-cart  .buy-now-pro:hover{
+	color: #fff;
+	background: #333;
+}
+
+
 
 .shop.single .add-to-cart .btn.min {
 	padding: 0 20px;

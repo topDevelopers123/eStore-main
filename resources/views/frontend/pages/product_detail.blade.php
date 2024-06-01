@@ -55,7 +55,6 @@
 															<img src="{{$data}}" alt="{{$data}}">
 														</li>
 													@endforeach --}}
-
 												@if (!empty($product_detail->product_image) && !empty($product_detail->product_image->image_name))
 														
                                                 <!-- <img src="{{ asset('public/product_image/'.$product_detail->product_image->image_name) }}"  class="img-fluid  col-10" style="height: 500px;"  alt="$product->product_image->image_name"> -->
@@ -165,11 +164,16 @@
 																</button>
 															</div>
 														</div>
-													<!--/ End Input Order -->
+
+														<div  class="add-to-cart mt-4">
+														<a href="{{route('add-to-wishlist',$product_detail->slug)}}" class="add-to-cart btn min"><i class="ti-heart"></i></a></div>
 													</div>
+													<!--/ End Input Order -->
 													<div class="add-to-cart mt-4">
 														<button type="submit" class="btn">Add to cart</button>
-														<a href="{{route('add-to-wishlist',$product_detail->slug)}}" class="btn min"><i class="ti-heart"></i></a>
+														<button type="submit" class="btn buy-now-pro">Buy Now</button>
+
+													
 													</div>
 												</form>
 
