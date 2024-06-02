@@ -6147,6 +6147,11 @@ CSS
 	}
 }
 
+.cat_img img{
+	height: 300px;
+	width: 100%;
+}
+
 .category_specific_main_div{
 	position: unset !important;
 }
