@@ -179,6 +179,8 @@ position: absolute; }
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  display: flex;
+  justify-content: center;
   
 }
 .owl-carousel .owl-item img {

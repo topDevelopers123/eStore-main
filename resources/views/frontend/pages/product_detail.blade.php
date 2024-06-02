@@ -375,7 +375,7 @@
                                             <div class="product-action">
                                                 <a data-toggle="modal" data-target="#modelExample" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
                                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                                <a title="Compare" href="#"><i class="ti-bar-chart-alt mr-3"></i><span>Add to Compare</span></a>
                                             </div>
                                             <div class="product-action-2 add-to-cart ">
 												<button class='add_to_cart_btn'>
@@ -391,8 +391,8 @@
                                             @php 
                                                 $after_discount=($data->price-(($data->discount*$data->price)/100));
                                             @endphp
-                                            <span class="old text-dark fw-bold">${{number_format($data->price,2)}}</span>
-                                            <span class="text-success fw-bold">${{number_format($after_discount,2)}}</span>
+                                            <span class="old text-dark fw-bold">₹{{number_format($data->price,2)}}</span>
+                                            <span class="text-success fw-bold">₹{{number_format($after_discount,2)}}</span>
                                         </div>
                                       
                                     </div>

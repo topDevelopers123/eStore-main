@@ -139,7 +139,7 @@
         
   <div class="row mt-4">
     <div class="col-md-12">
-      <div id="news-slider" class="owl-carousel">
+      <div id="news-slider" class="owl-carousel ">
         <div class="post-slide">
           <div class="post-img">
             <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
