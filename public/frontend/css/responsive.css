@@ -319,6 +319,7 @@ Version:1.0
 	padding: 0;
 	margin-bottom: 30px;
 }
+
 .error-page .error-inner h2 {
 	font-size: 100px;
 }
@@ -1005,6 +1006,9 @@ Version:1.0
 	padding: 10px 22px;
 	font-size: 13px;
 }
+.shop-services .single-service{
+	border: none;
+}
 .footer .footer-top{
 	padding: 15px 0px;
 }
@@ -1468,12 +1472,12 @@ Version:1.0
 	margin-right: 5px;
 	display: inline-block;
 	margin: 0;
-	mar0-t: mar;
+
 	margin-top: 4px;
 	width: 100%;
 	display: block;
 	display: inline-block;
-	display: ;
+
 }
 .shop .view-mode li a {
 	width: 80px;

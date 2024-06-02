@@ -284,7 +284,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-12">
 				<!-- Start Single Service -->
-				<div class="single-service">
+				<div class="single-service" style="border:none;">
 					<i class="ti-tag"></i>
 					<h4>Best Peice</h4>
 					<p class="m-0">Guaranteed price</p>

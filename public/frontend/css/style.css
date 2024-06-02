@@ -4409,6 +4409,7 @@ CSS
 .shop-services .single-service {
 	position: relative;
 	padding-left: 65px;
+	border-right: 2px solid #555;
 }
 
 .shop-services .single-service i {
