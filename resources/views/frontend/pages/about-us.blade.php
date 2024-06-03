@@ -146,7 +146,10 @@
 	</div>
 </section>
 <!-- Objective end  -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
 <!-- Counter Section Start -->
 
 <section>
@@ -262,7 +265,7 @@
 				<div class="single-service">
 					<i class="ti-rocket"></i>
 					<h4>Free shiping</h4>
-					<p>Orders over $100</p>
+					<p class="m-0">Orders over $100</p>
 				</div>
 			</div>
 			<!-- End Single Service -->
@@ -271,7 +274,7 @@
 				<div class="single-service">
 					<i class="ti-reload"></i>
 					<h4>Free Return</h4>
-					<p>Within 30 days returns</p>
+					<p class="m-0">Within 30 days returns</p>
 				</div>
 				<!-- End Single Service -->
 			</div>
@@ -280,16 +283,20 @@
 				<div class="single-service">
 					<i class="ti-lock"></i>
 					<h4>Sucure Payment</h4>
-					<p>100% secure payment</p>
+					<p class="m-0">100% secure payment</p>
 				</div>
 				<!-- End Single Service -->
 			</div>
 			<div class="col-lg-3 col-md-6 col-12">
 				<!-- Start Single Service -->
+<<<<<<< HEAD
 				<div class="single-service" style="border-right: none;">
+=======
+				<div class="single-service" style="border:none;">
+>>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
 					<i class="ti-tag"></i>
 					<h4>Best Peice</h4>
-					<p>Guaranteed price</p>
+					<p class="m-0">Guaranteed price</p>
 				</div>
 				<!-- End Single Service -->
 			</div>

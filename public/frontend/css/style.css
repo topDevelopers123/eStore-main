@@ -2273,7 +2273,7 @@
 
 .single-product:hover .button-head {
 	position: absolute;
-	bottom: 2%;
+	bottom: 0%;
 	left: 0;
 }
 
@@ -5892,8 +5892,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 	padding: 40px 25px;
 }
 .featured-product .owl-carousel .owl-item{
+<<<<<<< HEAD
 	display: flex;
 	justify-content: center;
+=======
+  display: flex;
+  justify-content: center;
+>>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
 }
 
 #news-slider {
@@ -6089,6 +6094,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 	height: 22%;
 	cursor: pointer;
 	border-radius: 8px;
+	/* padding: 5px; */
+	border: 1px solid orange;
+
 
 }
 
@@ -6105,6 +6113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 	height: 100%;
 	object-fit: center;
 	transition: all 0.3s ease;
+	
 	
 }
 
@@ -6133,6 +6142,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 
 
+<<<<<<< HEAD
+=======
+
+@media only screen and (max-width:500px) {
+	.category_image {
+		width: 300px !important;
+		
+	}
+	#Gslider .carousel-inner img{
+		height: auto !important;
+	}
+}
+
+.cat_img img{
+	height: 300px;
+	width: 100%;
+}
+
+>>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
 .category_specific_main_div{
 	position: unset !important;
 }

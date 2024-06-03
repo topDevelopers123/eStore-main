@@ -312,6 +312,7 @@
 	padding: 0;
 	margin-bottom: 30px;
 }
+
 .error-page .error-inner h2 {
 	font-size: 100px;
 }
@@ -540,6 +541,7 @@ nav{
 .header .header-inner{
 	display:none 
 }
+
 .hero-slider {
 	height: 350px;
 }
@@ -685,6 +687,17 @@ nav{
 }
 .most-popular .single-product {
 	margin: 20px 15px 0 15px;
+}
+
+.shop-sidebar .category{
+	display: none;
+}
+.range{
+margin-top: 0px !important;
+padding: 0 !important;
+}
+.product_main_box{
+	margin-top: 30px;
 }
 .shop-home-list .shop-section-title {
 	margin-top: 20px;
@@ -1020,6 +1033,7 @@ nav{
 	padding: 10px 22px;
 	font-size: 13px;
 }
+<<<<<<< HEAD
 .objective_sec .shape .shape1 {
     width: 300px;
     height: 300px;
@@ -1033,6 +1047,12 @@ nav{
 	border: none;
 }
 .footer .footer-top {
+=======
+.shop-services .single-service{
+	border: none;
+}
+.footer .footer-top{
+>>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
 	padding: 15px 0px;
 }
 .footer .copyright .left {
@@ -1090,14 +1110,29 @@ nav{
 
 
 }
+
+@media only screen and (max-width: 577px) {
+.add_to_cart_btn2{
+	width: 100% !important;
+	padding: 8px 15px !important;
+	border-radius: 0% !important;
+
+}
+.add_to_cart_btn2 a{
+	
+	width: 100% !important;
+	font-size: 2vw !important;
+}
+
+}
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 .site-header.sticky .header-bottom{
 	position:absolute;
 	z-index:999;
-	top:initial;
+	top:0;
 	left:0;
-	bottom:initial;
+	
 }
 .site-header .header-bottom {
 	width: 100%;
@@ -1281,9 +1316,9 @@ nav{
 .header.shop .all-category {
 	display: none;
 }
-.header .header-inner{
+/* .header .header-inner{
 	display:none 
-}
+} */
 .header.shop .nav li .new {
 	display:none !important;
 }
@@ -1453,6 +1488,7 @@ nav{
 	margin-top: 5px;
 	margin-bottom: 25px;
 }
+
 .shop.checkout .single-widget.get-button .btn {
 	height:auto;
 	font-size: 13px;
@@ -1495,12 +1531,12 @@ nav{
 	margin-right: 5px;
 	display: inline-block;
 	margin: 0;
-	mar0-t: mar;
+
 	margin-top: 4px;
 	width: 100%;
 	display: block;
 	display: inline-block;
-	display: ;
+
 }
 .shop .view-mode li a {
 	width: 80px;
