@@ -200,6 +200,7 @@
         </div>
     </section>
     <!--/ End Blog Single -->
+
 @endsection
 @push('styles')
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2e5abf393162001291e431&product=inline-share-buttons' async='async'></script>
@@ -214,7 +215,6 @@ $(document).ready(function(){
         $('.btn-reply.reply').click(function(e){
             e.preventDefault();
             $('.btn-reply.reply').show();
-
             $('.comment_btn.comment').hide();
             $('.comment_btn.reply').show();
 
@@ -233,17 +233,13 @@ $(document).ready(function(){
             e.preventDefault();
             $(this).hide();
             $('.btn-reply.reply').show();
-
             $('.comment_btn.reply').hide();
             $('.comment_btn.comment').show();
-
             $('#commentFormContainer').show();
             var html = $('#commentForm');
             $( html).find('#parent_id').val('');
-
             $('#commentFormContainer').append(html);
         });
-
  })(jQuery)
 })
 </script>
