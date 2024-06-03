@@ -92,9 +92,9 @@
     }
     .add_to_cart_btn{
         background-color: #F7941D !important;
-        padding: 10px 20px !important;
+        padding: 10px 20px;
         text-align: center !important;
-        border-radius: 8px !important;
+        border-radius: 8px ;
         color: #fff !important;
 
     }

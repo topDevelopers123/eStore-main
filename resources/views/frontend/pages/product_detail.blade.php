@@ -337,7 +337,7 @@
 		
 		<!-- Start Most Popular -->
 	<div class="product-area most-popular related-product section">
-        <div class="container">
+        <div class="container ">
             <div class="row">
 				<div class="col-12">
 					<div class="section-title">
@@ -371,14 +371,14 @@
                                             <span class="price-dec">{{$data->discount}} % Off</span>
                                                                      
                                         </a>
-                                        <div class="button-head">
-                                            <div class="product-action">
+                                        <div class="button-head  col-12">
+                                            <div class="product-action col-lg-6 col-md-6 col-sm-6 col-6  p-0 d-flex justify-content-center">
                                                 <a data-toggle="modal" data-target="#modelExample" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
                                                 <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
                                                 <a title="Compare" href="#"><i class="ti-bar-chart-alt mr-3"></i><span>Add to Compare</span></a>
                                             </div>
-                                            <div class="product-action-2 add-to-cart ">
-												<button class='add_to_cart_btn'>
+                                            <div class="product-action-2 add-to-cart col-lg-6 col-md-6 col-sm-6 col-6  p-0 d-flex justify-content-center  ">
+												<button class='add_to_cart_btn add_to_cart_btn2 '>
 												
                                                 <a title="Add to cart" href="#" class="text-light" >Add to cart</a>
 									</button>

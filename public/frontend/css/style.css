@@ -2303,7 +2303,7 @@ CSS
 
 .single-product:hover .button-head {
 	position: absolute;
-	bottom: 2%;
+	bottom: 0%;
 	left: 0;
 }
 

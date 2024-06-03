@@ -65,7 +65,7 @@
                         <div class="single-widget range">
                             <h3 class="title">Shop by Price</h3>
                             <div class="price-filter">
-                                <div class="price-filter-inner">
+                                <div class="price-filter-inner col-sm-8 col-12">
                                     @php
                                     $max=DB::table('products')->max('price');
                                     // dd($max);
@@ -132,13 +132,13 @@
                         <!--/ End Single Widget -->
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-8 col-12">
+                <div class="col-lg-9 col-md-8 col-12 product_main_box">
                     <div class="row">
                         <div class="col-12">
                             <!-- Shop Top -->
                             <div class="shop-top">
-                                <div class="shop-shorter">
-                                    <div class="single-shorter">
+                                <div class="shop-shorter d-flex  w-100 ">
+                                    <div class="single-shorter   col-sm-6 col-6">
                                         <label>Show :</label>
                                         <select class="show" name="show" onchange="this.form.submit();">
                                             <option value="">Default</option>
@@ -148,7 +148,7 @@
                                             <option value="30" @if(!empty($_GET['show']) && $_GET['show']=='30' ) selected @endif>30</option>
                                         </select>
                                     </div>
-                                    <div class="single-shorter">
+                                    <div class="single-shorter  col-sm-6 col-6">
                                         <label>Sort By :</label>
                                         <select class='sortBy' name='sortBy' onchange="this.form.submit();">
                                             <option value="">Default</option>
@@ -159,20 +159,22 @@
                                         </select>
                                     </div>
                                 </div>
-                                <ul class="view-mode">
+                                <div class=" col-sm-12 col-12 text-right ">
+                                <ul class="view-mode  w-100 p-0 m-0 mt-3">
                                     <li class="active"><a href="javascript:void(0)"><i class="fa fa-th-large"></i></a></li>
                                     <li><a href="{{route('product-lists')}}"><i class="fa fa-th-list"></i></a></li>
                                 </ul>
+                                </div>
                             </div>
                             <!--/ End Shop Top -->
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row w-100 ">
                         {{-- {{$products}} --}}
                         @if(count($products)>0)
                         @foreach($products as $product)
-                        <div class="col-lg-4 col-md-6 col-12  mt-5">
-                            <div class="single-product single_product_div mt-0 border rounded">
+                        <div class="col-lg-4 col-md-6 col-12 col-sm-6 p-3     mt-5 p-0">
+                            <div class="single-product col-sm-12 col-md-12 col-lg-12 col-12 single_product_div mt-0   rounded  ">
                                 <div class="product-img col-sm-12 col-md-12 col-lg-12 px-0 d-flex justify-content-center align-items-center">
                                     <a href="{{route('product-detail',$product->slug)}}" class="p-2">
                                         {{-- @php
@@ -191,13 +193,13 @@
                                         <span class="price-dec">{{$product->discount}} % Off</span>
                                         @endif
                                     </a>
-                                    <div class="button-head ">
-                                        <div class="product-action pr-3">
+                                    <div class="button-head col-12 ">
+                                        <div class="product-action d-flex flex-row col-lg-4 col-md-4 col-sm-6 col-6 pr-3">
                                             <a data-toggle="modal" data-target="#{{$product->id}}" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
                                             <a title="Wishlist" href="{{route('add-to-wishlist',$product->slug)}}" class="wishlist" data-id="{{$product->id}}"><i class="pr-2 ti-heart "></i><span class="">Add to Wishlist</span></a>
                                         </div>
-                                        <div class="product-action-2 pl-3">
-                                            <a title="Add to cart" href="{{route('add-to-cart',$product->slug)}}" class="pl-2 add_to_cart_btn ">Add to cart</a>
+                                        <div class="product-action-2 col-lg-8 col-md-8 col-sm-6 col-6 pl-3 ">
+                                            <a title="Add to cart" href="{{route('add-to-cart',$product->slug)}}" class="pl-2    add_to_cart_btn ">Add to cart</a>
                                         </div>
                                     </div>
                                 </div>

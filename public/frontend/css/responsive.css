@@ -526,6 +526,7 @@ Version:1.0
 .header .header-inner{
 	display:none 
 }
+
 .hero-slider {
 	height: 350px;
 }
@@ -671,6 +672,17 @@ Version:1.0
 }
 .most-popular .single-product {
 	margin: 20px 15px 0 15px;
+}
+
+.shop-sidebar .category{
+	display: none;
+}
+.range{
+margin-top: 0px !important;
+padding: 0 !important;
+}
+.product_main_box{
+	margin-top: 30px;
 }
 .shop-home-list .shop-section-title {
 	margin-top: 20px;
@@ -1067,14 +1079,29 @@ Version:1.0
 
 
 }
+
+@media only screen and (max-width: 577px) {
+.add_to_cart_btn2{
+	width: 100% !important;
+	padding: 8px 15px !important;
+	border-radius: 0% !important;
+
+}
+.add_to_cart_btn2 a{
+	
+	width: 100% !important;
+	font-size: 2vw !important;
+}
+
+}
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 .site-header.sticky .header-bottom{
 	position:absolute;
 	z-index:999;
-	top:initial;
+	top:0;
 	left:0;
-	bottom:initial;
+	
 }
 .site-header .header-bottom {
 	width: 100%;
@@ -1258,9 +1285,9 @@ Version:1.0
 .header.shop .all-category {
 	display: none;
 }
-.header .header-inner{
+/* .header .header-inner{
 	display:none 
-}
+} */
 .header.shop .nav li .new {
 	display:none !important;
 }
@@ -1430,6 +1457,7 @@ Version:1.0
 	margin-top: 5px;
 	margin-bottom: 25px;
 }
+
 .shop.checkout .single-widget.get-button .btn {
 	height:auto;
 	font-size: 13px;
