@@ -132,7 +132,7 @@
     <div class="main">
 
         <div class="container-fluid">
-<<<<<<< HEAD
+
             <div>
                 <h2>Featured product </h2>
                 <div class="bdr"></div>
@@ -179,7 +179,6 @@
                     </div>
                 </div>
             </div>
-=======
         <div>
             <h2>Featured product </h2>
            <div class="bdr"></div>
@@ -193,7 +192,6 @@
             <img src="https://www.workingclassheroes.co.uk/images/products/m/ms/mstrsofstntbmboylw2.jpg?width=480&height=480&format=jpg&quality=70&scale=both" alt="">
           </div>
          
->>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
         </div>
 
 
@@ -620,11 +618,11 @@
             </div>
             <div class="col-lg-3 col-md-6 col-12">
                 <!-- Start Single Service -->
-<<<<<<< HEAD
+
                 <div class="single-service" style="border-right: none;">
-=======
+
                 <div class="single-service"  style="border:none;">
->>>>>>> 7496afe388b3d31d2c75fe6f756cfc11024fd560
+ 
                     <i class="ti-tag"></i>
                     <h4>Best Peice</h4>
                     <p class="m-0">Guaranteed price</p>

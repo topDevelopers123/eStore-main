@@ -1,7 +1,8 @@
 {
     "editor.fontFamily": "cascadia code,Consolas, 'Courier New', monospace",
-    "editor.fontSize": 16,
+    "editor.fontSize": 13,
     "files.autoSaveDelay": 0,
     "files.autoSaveWhenNoErrors": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true
 }
